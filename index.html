@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>MaahLune</title>
+        <link rel="stylesheet" href="./style.css" />
+        <!-- <link rel="stylesheet" href="https://unpkg.com/xp.css" /> -->
+        <link rel="stylesheet" href="./assets/xp.css" />
+        <link rel="icon" href="./assets/joystick-0.png" type="image/png" />
+        <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    </head>
+    <body class="xp">
+        <div class="window active">
+            <div class="title-bar">
+                <div class="title-bar-text">
+                    <img src="./assets/joystick-0.png" alt="Game Icon" class="title-icon" />
+                    Jogos Zerados - MaahLune
+                </div>
+                <div class="title-bar-controls">
+                    <button aria-label="Minimize"></button>
+                    <button aria-label="Maximize"></button>
+                    <button aria-label="Close"></button>
+                </div>
+            </div>
+            <div class="window-body">
+                <div class="status-bar">
+                    <p class="status-bar-field" id="total-games">Total de jogos: Carregando...</p>
+                    <p class="status-bar-field" id="avg-note">Nota média: Carregando...</p>
+                    <p class="status-bar-field" id="total-time">Tempo total: Carregando...</p>
+                </div>
+
+                <!-- Abas para alternar entre tabela e gráficos -->
+                <div class="tabs">
+                    <button class="tab active" data-target="table-view">Tabela</button>
+                    <button class="tab" data-target="stats-view">Estatísticas</button>
+                </div>
+                <!-- Vista de tabela -->
+                <div id="table-view" class="view-container active-view">
+                    <!-- Filtros e pesquisa -->
+                    <div class="filter-container">
+                        <div class="search-bar">
+                            <label for="search">Pesquisar:</label>
+                            <input
+                                type="text"
+                                id="search"
+                                class="search-input"
+                                placeholder="Digite para pesquisar..."
+                            />
+                        </div>
+                        <div class="filter-selects">
+                            <div class="filter-group">
+                                <label for="genre-filter">Gênero:</label>
+                                <select id="genre-filter" class="filter-select">
+                                    <option value="">Todos</option>
+                                </select>
+                            </div>
+                            <div class="filter-group">
+                                <label for="platform-filter">Plataforma:</label>
+                                <select id="platform-filter" class="filter-select">
+                                    <option value="">Todas</option>
+                                </select>
+                            </div>
+                            <div class="filter-group">
+                                <label for="year-filter">Ano:</label>
+                                <select id="year-filter" class="filter-select">
+                                    <option value="">Todos</option>
+                                </select>
+                            </div>
+                            <div class="filter-group">
+                                <label for="score-filter">Nota Mínima:</label>
+                                <select id="score-filter" class="filter-select">
+                                    <option value="">Qualquer</option>
+                                    <option value="9">9+</option>
+                                    <option value="8">8+</option>
+                                    <option value="7">7+</option>
+                                    <option value="6">6+</option>
+                                    <option value="5">5+</option>
+                                </select>
+                            </div>
+                        </div>
+                        <button id="clear-filters" class="clear-btn">Limpar Filtros</button>
+                    </div>
+
+                    <div class="table-container">
+                        <table id="games-table" class="xp-table">
+                            <thead>
+                                <tr>
+                                    <th>Nota</th>
+                                    <th>Nome</th>
+                                    <th>Data</th>
+                                    <th>Gênero</th>
+                                    <th>Tempo</th>
+                                    <th>Versão</th>
+                                </tr>
+                            </thead>
+                            <tbody id="games-list"></tbody>
+                        </table>
+                    </div>
+                </div>
+
+                <!-- Vista de estatísticas -->
+                <div id="stats-view" class="view-container">
+                    <div class="stats-container">
+                        <div class="chart-box">
+                            <h3>Distribuição por Gênero</h3>
+                            <div class="chart-wrapper">
+                                <canvas id="genre-chart"></canvas>
+                            </div>
+                        </div>
+
+                        <div class="chart-box">
+                            <h3>Notas Médias por Período</h3>
+                            <div class="chart-wrapper">
+                                <canvas id="ratings-chart"></canvas>
+                            </div>
+                        </div>
+
+                        <div class="chart-box">
+                            <h3>Distribuição por Plataforma</h3>
+                            <div class="chart-wrapper">
+                                <canvas id="platform-chart"></canvas>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <script type="module" src="script.js"></script>
+    </body>
+</html>
