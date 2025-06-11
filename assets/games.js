@@ -495,4 +495,12 @@ export const games = [
         tempo: "1h 00m",
         versao: "PC",
     },
+    {
+        nota: 9,
+        nome: "Grizzly Man",
+        data: "10/jun/2025",
+        genero: ["Visual Novel", "Point and Click"],
+        tempo: "1h 47m",
+        versao: "PC",
+    },
 ];
