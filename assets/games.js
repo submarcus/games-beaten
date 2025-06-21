@@ -40,7 +40,7 @@ export const games = [
         versao: "PS2",
     },
     {
-        nota: 10,
+        nota: 9,
         nome: "Shadow of Memories",
         data: "19/jan/2025",
         genero: ["Atmosférico"],
@@ -48,7 +48,7 @@ export const games = [
         versao: "PS2",
     },
     {
-        nota: 10,
+        nota: 9,
         nome: "Wuthering Waves",
         data: "24/mai/2025",
         genero: ["Gacha"],
@@ -56,7 +56,7 @@ export const games = [
         versao: "PC",
     },
     {
-        nota: 10,
+        nota: 9,
         nome: "The Last of Us Remastered",
         data: "10/nov/2018",
         genero: ["Survival Horror", "Ação"],
@@ -64,7 +64,7 @@ export const games = [
         versao: "PS4",
     },
     {
-        nota: 10,
+        nota: 9,
         nome: "The Last of Us Part II",
         data: "21/jun/2020",
         genero: ["Survival Horror", "Ação"],
@@ -200,11 +200,19 @@ export const games = [
         versao: "PS4",
     },
     {
-        nota: 8,
+        nota: 9,
         nome: "Katawa Shoujo",
         data: "08/jun/2025",
         genero: ["Visual Novel"],
         tempo: "11h 30m",
+        versao: "PC",
+    },
+    {
+        nota: 9,
+        nome: "planetarian HD",
+        data: "21/jun/2025",
+        genero: ["Visual Novel"],
+        tempo: "3h 50m",
         versao: "PC",
     },
     {

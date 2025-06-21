@@ -1,6 +1,10 @@
 import { games } from "./assets/games.js";
 
 document.addEventListener("DOMContentLoaded", () => {
+    // Configurar ordenação padrão por data mais recente
+    window.sortColumn = 2; // Coluna de data
+    window.sortDirection = "desc"; // Ordem decrescente (mais recente primeiro)
+
     const tableBody = document.getElementById("games-list");
     const totalGamesElement = document.getElementById("total-games");
     const avgNoteElement = document.getElementById("avg-note");
@@ -300,6 +304,9 @@ document.addEventListener("DOMContentLoaded", () => {
         });
         header.setAttribute("title", "Clique para ordenar");
     });
+
+    // Marcar a coluna de data como ordenada por padrão em ordem decrescente
+    headers[2].classList.add("sorted-desc");
     function sortTable(columnIndex) {
         const table = document.getElementById("games-table");
         const tbody = document.getElementById("games-list");
@@ -478,19 +485,12 @@ document.addEventListener("DOMContentLoaded", () => {
             const matchesScore = selectedScore === 0 || game.nota >= selectedScore;
 
             return matchesSearch && matchesGenre && matchesPlatform && matchesYear && matchesScore;
-        });
-
-        // Ordenar resultados se houver uma coluna de ordenação definida
+        }); // Ordenar resultados se houver uma coluna de ordenação definida
         if (window.sortColumn !== undefined && window.sortDirection) {
             filteredGames = sortGames(filteredGames, window.sortColumn, window.sortDirection);
         } else {
-            // Ordenação padrão por nota e depois nome
-            filteredGames = filteredGames.sort((a, b) => {
-                if (b.nota !== a.nota) {
-                    return b.nota - a.nota;
-                }
-                return a.nome.localeCompare(b.nome);
-            });
+            // Ordenação padrão por data mais recente
+            filteredGames = sortGames(filteredGames, 2, "desc"); // Índice 2 é a coluna de data, "desc" para ordem decrescente (mais recente primeiro)
         }
 
         // Renderizar jogos filtrados
