@@ -304,6 +304,14 @@ export const games = [
         versao: "PC",
     },
     {
+        nota: 7,
+        nome: "Threshold",
+        data: "26/jun/2025",
+        genero: ["Terror"],
+        tempo: "1h 25m",
+        versao: "PC",
+    },
+    {
         nota: 8,
         nome: "Buckshot Roulette",
         data: "08/abr/2024",
