@@ -56,7 +56,7 @@ export const games = [
         versao: "PC",
     },
     {
-        nota: 9,
+        nota: 10,
         nome: "The Last of Us Remastered",
         data: "10/nov/2018",
         genero: ["Survival Horror", "Ação"],
@@ -64,12 +64,20 @@ export const games = [
         versao: "PS4",
     },
     {
-        nota: 9,
+        nota: 10,
         nome: "The Last of Us Part II",
         data: "21/jun/2020",
         genero: ["Survival Horror", "Ação"],
         tempo: "96h 30m",
         versao: "PS4",
+    },
+    {
+        nota: 10,
+        nome: "Death Stranding Director's Cut",
+        data: "06/jul/2025",
+        genero: ["Aventura", "Exploração", "Terror"],
+        tempo: "35h 30m",
+        versao: "PC",
     },
     {
         nota: 9,
