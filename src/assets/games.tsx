@@ -7,6 +7,7 @@ export const games = [
         tempo: "169h 41m",
         versao: "PC",
         cover: "https://images.igdb.com/igdb/image/upload/t_cover_big/co7iy1.webp",
+        review: "https://steamcommunity.com/id/maahlune/recommended/1091500/",
     },
     {
         nota: 10,
@@ -16,6 +17,7 @@ export const games = [
         tempo: "426h 41m",
         versao: "PC",
         cover: "https://images.igdb.com/igdb/image/upload/t_cover_big/co4jni.webp",
+        review: "https://steamcommunity.com/id/maahlune/recommended/1245620/",
     },
     {
         nota: 10,
@@ -25,6 +27,7 @@ export const games = [
         tempo: "37h 53m",
         versao: "PC",
         cover: "https://images.igdb.com/igdb/image/upload/t_cover_big/co1vcf.webp",
+        review: "https://steamcommunity.com/id/maahlune/recommended/374320/",
     },
     {
         nota: 10,
@@ -61,6 +64,7 @@ export const games = [
         tempo: "74h 00m",
         versao: "PC",
         cover: "https://images.igdb.com/igdb/image/upload/t_cover_big/co92hl.webp",
+        review: "https://steamcommunity.com/id/maahlune/recommended/3513350/",
     },
     {
         nota: 10,
@@ -178,6 +182,7 @@ export const games = [
         tempo: "10h 41m",
         versao: "PC",
         cover: "https://images.igdb.com/igdb/image/upload/t_cover_big/co94lc.webp",
+        review: "https://steamcommunity.com/id/maahlune/recommended/960910/",
     },
     {
         nota: 8,
@@ -241,6 +246,7 @@ export const games = [
         tempo: "11h 30m",
         versao: "PC",
         cover: "https://images.igdb.com/igdb/image/upload/t_cover_big/co8kvi.webp",
+        review: "https://steamcommunity.com/id/maahlune/recommended/3068300/",
     },
     {
         nota: 9,
@@ -250,6 +256,7 @@ export const games = [
         tempo: "3h 50m",
         versao: "PC",
         cover: "https://images.igdb.com/igdb/image/upload/t_cover_big/co24qe.webp",
+        review: "https://steamcommunity.com/id/maahlune/recommended/623080/",
     },
     {
         nota: 8,
@@ -358,6 +365,7 @@ export const games = [
         tempo: "1h 25m",
         versao: "PC",
         cover: "https://images.igdb.com/igdb/image/upload/t_cover_big/co8coy.webp",
+        review: "https://steamcommunity.com/id/maahlune/recommended/2580020/",
     },
     {
         nota: 8,
@@ -376,6 +384,7 @@ export const games = [
         tempo: "13h 35m",
         versao: "PC",
         cover: "https://images.igdb.com/igdb/image/upload/t_cover_big/co8ngp.webp",
+        review: "https://steamcommunity.com/id/maahlune/recommended/460790/",
     },
     {
         nota: 8,
@@ -385,6 +394,7 @@ export const games = [
         tempo: "1h 23m",
         versao: "PC",
         cover: "https://images.igdb.com/igdb/image/upload/t_cover_big/co7ozd.webp",
+        review: "https://steamcommunity.com/id/maahlune/recommended/2771670/",
     },
     {
         nota: 8,
@@ -403,6 +413,7 @@ export const games = [
         tempo: "28h 00m",
         versao: "PC",
         cover: "https://images.igdb.com/igdb/image/upload/t_cover_big/co2n18.webp",
+        review: "https://steamcommunity.com/id/maahlune/recommended/631510/",
     },
     {
         nota: 8,
@@ -412,6 +423,7 @@ export const games = [
         tempo: "20h 23m",
         versao: "PC",
         cover: "https://images.igdb.com/igdb/image/upload/t_cover_big/co1r8e.webp",
+        review: "https://steamcommunity.com/id/maahlune/recommended/319630/",
     },
     {
         nota: 8,
@@ -430,6 +442,7 @@ export const games = [
         tempo: "1h 11m",
         versao: "PC",
         cover: "https://images.igdb.com/igdb/image/upload/t_cover_big/co5i86.webp",
+        review: "https://steamcommunity.com/id/maahlune/recommended/1696960/",
     },
     {
         nota: 8,
@@ -448,6 +461,7 @@ export const games = [
         tempo: "0h 30m",
         versao: "PC",
         cover: "https://images.igdb.com/igdb/image/upload/t_cover_big/co99t4.webp",
+        review: "https://steamcommunity.com/id/maahlune/recommended/3205080/",
     },
     {
         nota: 8,
@@ -457,6 +471,7 @@ export const games = [
         tempo: "1h 06m",
         versao: "PC",
         cover: "https://images.igdb.com/igdb/image/upload/t_cover_big/co8qyb.webp",
+        review: "https://steamcommunity.com/id/maahlune/recommended/3037930/",
     },
     {
         nota: 8,
@@ -481,9 +496,10 @@ export const games = [
         nome: "Go! Go! Nippon! ~My First Trip to Japan~",
         data: "10/jul/2025",
         genero: ["Visual Novel"],
-        tempo: "04h 50m",
+        tempo: "4h 50m",
         versao: "PC",
         cover: "https://images.igdb.com/igdb/image/upload/t_cover_big/co41d5.webp",
+        review: "https://steamcommunity.com/id/maahlune/recommended/251870/",
     },
     {
         nota: 7,
@@ -565,6 +581,7 @@ export const games = [
         tempo: "1h 49m",
         versao: "PC",
         cover: "https://images.igdb.com/igdb/image/upload/t_cover_big/co9jva.webp",
+        review: "https://steamcommunity.com/id/maahlune/recommended/3400040/",
     },
     {
         nota: 7,
@@ -574,6 +591,7 @@ export const games = [
         tempo: "7h 30m",
         versao: "PC",
         cover: "https://images.igdb.com/igdb/image/upload/t_cover_big/co1oew.webp",
+        review: "https://steamcommunity.com/id/maahlune/recommended/1045720/",
     },
     {
         nota: 7,
@@ -583,6 +601,7 @@ export const games = [
         tempo: "8h 11m",
         versao: "PC",
         cover: "https://images.igdb.com/igdb/image/upload/t_cover_big/co1m35.webp",
+        review: "https://steamcommunity.com/id/maahlune/recommended/383870/",
     },
     {
         nota: 6,
@@ -601,6 +620,7 @@ export const games = [
         tempo: "1h 47m",
         versao: "PC",
         cover: "https://images.igdb.com/igdb/image/upload/t_cover_big/co9y1s.webp",
+        review: "https://steamcommunity.com/id/maahlune/recommended/3118010/",
     },
     {
         nota: 8,
@@ -610,5 +630,6 @@ export const games = [
         tempo: "1h 50m",
         versao: "PC",
         cover: "https://images.igdb.com/igdb/image/upload/t_cover_big/co9apq.webp",
+        review: "https://steamcommunity.com/id/maahlune/recommended/2873080/",
     },
 ];
