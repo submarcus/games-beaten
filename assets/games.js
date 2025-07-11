@@ -425,6 +425,14 @@ export const games = [
     },
     {
         nota: 7,
+        nome: "Go! Go! Nippon! ~My First Trip to Japan~",
+        data: "10/jul/2025",
+        genero: ["Visual Novel"],
+        tempo: "04h 50m",
+        versao: "PC",
+    },
+    {
+        nota: 7,
         nome: "Stigmatized Property",
         data: "09/fev/2023",
         genero: ["Terror"],

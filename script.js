@@ -140,7 +140,7 @@ document.addEventListener("DOMContentLoaded", () => {
         });
     }
 
-    // Função para criar o gráfico de notas médias por período
+    // Função para criar o gráfico de quantidade de jogos por período
     function createRatingsChart() {
         // Agrupar jogos por ano
         const yearGroups = {};
@@ -154,12 +154,10 @@ document.addEventListener("DOMContentLoaded", () => {
             yearGroups[year].push(game);
         });
 
-        // Calcular notas médias por ano
+        // Calcular quantidade de jogos por ano
         const years = Object.keys(yearGroups).sort();
-        const avgRatings = years.map((year) => {
-            const yearGames = yearGroups[year];
-            const sum = yearGames.reduce((acc, game) => acc + game.nota, 0);
-            return parseFloat((sum / yearGames.length).toFixed(1));
+        const gameCounts = years.map((year) => {
+            return yearGroups[year].length;
         });
 
         // Verificar se já existe um gráfico e destruí-lo
@@ -167,7 +165,7 @@ document.addEventListener("DOMContentLoaded", () => {
             window.ratingsChartInstance.destroy();
         }
 
-        // Criar o gráfico de notas médias por período
+        // Criar o gráfico de quantidade de jogos por período
         const ctx = document.getElementById("ratings-chart").getContext("2d");
         window.ratingsChartInstance = new Chart(ctx, {
             type: "bar",
@@ -175,8 +173,8 @@ document.addEventListener("DOMContentLoaded", () => {
                 labels: years,
                 datasets: [
                     {
-                        label: "Nota Média",
-                        data: avgRatings,
+                        label: "Quantidade de Jogos",
+                        data: gameCounts,
                         backgroundColor: "#4e79a7",
                         borderColor: "#3a5f8a",
                         borderWidth: 1,
@@ -188,9 +186,10 @@ document.addEventListener("DOMContentLoaded", () => {
                 maintainAspectRatio: false,
                 scales: {
                     y: {
-                        beginAtZero: false,
-                        min: Math.max(5, Math.floor(Math.min(...avgRatings) - 1)),
-                        max: 10,
+                        beginAtZero: true,
+                        ticks: {
+                            stepSize: 1,
+                        },
                     },
                 },
                 plugins: {
@@ -200,8 +199,10 @@ document.addEventListener("DOMContentLoaded", () => {
                                 const label = context.dataset.label || "";
                                 const value = context.raw;
                                 const year = context.label;
-                                const count = yearGroups[year].length;
-                                return `${label}: ${value} (${count} jogos)`;
+                                const avgNote = (
+                                    yearGroups[year].reduce((acc, game) => acc + game.nota, 0) / yearGroups[year].length
+                                ).toFixed(1);
+                                return `${label}: ${value} jogos (nota média: ${avgNote})`;
                             },
                         },
                     },
