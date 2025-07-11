@@ -6,6 +6,7 @@ export const games = [
         genero: ["RPG", "Ação"],
         tempo: "169h 41m",
         versao: "PC",
+        cover: "https://images.igdb.com/igdb/image/upload/t_cover_big/co7iy1.webp",
     },
     {
         nota: 10,
@@ -14,6 +15,7 @@ export const games = [
         genero: ["Soulslike"],
         tempo: "426h 41m",
         versao: "PC",
+        cover: "https://images.igdb.com/igdb/image/upload/t_cover_big/co4jni.webp",
     },
     {
         nota: 10,
@@ -22,6 +24,7 @@ export const games = [
         genero: ["Soulslike"],
         tempo: "37h 53m",
         versao: "PC",
+        cover: "https://images.igdb.com/igdb/image/upload/t_cover_big/co1vcf.webp",
     },
     {
         nota: 10,
@@ -30,6 +33,7 @@ export const games = [
         genero: ["Terror Psicológico", "Atmosférico"],
         tempo: "8h 18m",
         versao: "PS2",
+        cover: "https://images.igdb.com/igdb/image/upload/t_cover_big/co5wkr.webp",
     },
     {
         nota: 10,
@@ -38,6 +42,7 @@ export const games = [
         genero: ["Terror", "Ação"],
         tempo: "14h 05m",
         versao: "PS2",
+        cover: "https://images.igdb.com/igdb/image/upload/t_cover_big/co3kol.webp",
     },
     {
         nota: 9,
@@ -46,6 +51,7 @@ export const games = [
         genero: ["Atmosférico"],
         tempo: "7h 00m",
         versao: "PS2",
+        cover: "https://images.igdb.com/igdb/image/upload/t_cover_big/co53se.webp",
     },
     {
         nota: 9,
@@ -54,6 +60,7 @@ export const games = [
         genero: ["Gacha"],
         tempo: "74h 00m",
         versao: "PC",
+        cover: "https://images.igdb.com/igdb/image/upload/t_cover_big/co92hl.webp",
     },
     {
         nota: 10,
@@ -62,6 +69,7 @@ export const games = [
         genero: ["Survival Horror", "Ação"],
         tempo: "137h 24m",
         versao: "PS4",
+        cover: "https://images.igdb.com/igdb/image/upload/t_cover_big/co5zks.webp",
     },
     {
         nota: 10,
@@ -70,6 +78,7 @@ export const games = [
         genero: ["Survival Horror", "Ação"],
         tempo: "96h 30m",
         versao: "PS4",
+        cover: "https://images.igdb.com/igdb/image/upload/t_cover_big/co5ziw.webp",
     },
     {
         nota: 10,
@@ -78,6 +87,7 @@ export const games = [
         genero: ["Aventura", "Exploração", "Terror"],
         tempo: "35h 30m",
         versao: "PC",
+        cover: "https://images.igdb.com/igdb/image/upload/t_cover_big/co4rjc.webp",
     },
     {
         nota: 9,
@@ -86,6 +96,7 @@ export const games = [
         genero: ["Terror", "Ação"],
         tempo: "25h 53m",
         versao: "PS4",
+        cover: "https://images.igdb.com/igdb/image/upload/t_cover_big/co8uu1.webp",
     },
     {
         nota: 9,
@@ -94,6 +105,7 @@ export const games = [
         genero: ["Ação"],
         tempo: "5h 54m",
         versao: "PC",
+        cover: "https://images.igdb.com/igdb/image/upload/t_cover_big/co1isp.webp",
     },
     {
         nota: 9,
@@ -102,6 +114,7 @@ export const games = [
         genero: ["Atmosférico"],
         tempo: "6h 24m",
         versao: "PC",
+        cover: "https://images.igdb.com/igdb/image/upload/t_cover_big/co4tt2.webp",
     },
     {
         nota: 9,
@@ -110,6 +123,7 @@ export const games = [
         genero: ["Visual Novel"],
         tempo: "0h 18m",
         versao: "PC",
+        cover: "https://images.igdb.com/igdb/image/upload/t_cover_big/co66n4.webp",
     },
     {
         nota: 9,
@@ -118,6 +132,7 @@ export const games = [
         genero: ["Visual Novel"],
         tempo: "3h 36m",
         versao: "PC",
+        cover: "https://images.igdb.com/igdb/image/upload/t_cover_big/co4bsi.webp",
     },
     {
         nota: 9,
@@ -126,6 +141,7 @@ export const games = [
         genero: ["Visual Novel"],
         tempo: "5h 42m",
         versao: "PC",
+        cover: "https://images.igdb.com/igdb/image/upload/t_cover_big/co6p5e.webp",
     },
     {
         nota: 9,
@@ -134,6 +150,7 @@ export const games = [
         genero: ["Survival Horror"],
         tempo: "21h 18m",
         versao: "PC",
+        cover: "https://images.igdb.com/igdb/image/upload/t_cover_big/co20ci.webp",
     },
     {
         nota: 9,
@@ -142,6 +159,7 @@ export const games = [
         genero: ["Survival Horror"],
         tempo: "75h 05m",
         versao: "PC",
+        cover: "https://images.igdb.com/igdb/image/upload/t_cover_big/co6bo0.webp",
     },
     {
         nota: 9,
@@ -150,6 +168,7 @@ export const games = [
         genero: ["Hack and Slash"],
         tempo: "6h 47m",
         versao: "PC",
+        cover: "https://images.igdb.com/igdb/image/upload/t_cover_big/co4r26.webp",
     },
     {
         nota: 9,
@@ -158,6 +177,7 @@ export const games = [
         genero: ["Filme Interativo"],
         tempo: "10h 41m",
         versao: "PC",
+        cover: "https://images.igdb.com/igdb/image/upload/t_cover_big/co94lc.webp",
     },
     {
         nota: 8,
@@ -166,6 +186,7 @@ export const games = [
         genero: ["Ação"],
         tempo: "66h 30m",
         versao: "PS4",
+        cover: "https://images.igdb.com/igdb/image/upload/t_cover_big/co2lbd.webp",
     },
     {
         nota: 8,
@@ -174,6 +195,7 @@ export const games = [
         genero: ["Filme Interativo"],
         tempo: "8h 54m",
         versao: "PS4",
+        cover: "https://images.igdb.com/igdb/image/upload/t_cover_big/co9qxt.webp",
     },
     {
         nota: 8,
@@ -182,6 +204,7 @@ export const games = [
         genero: ["Ação"],
         tempo: "24h 41m",
         versao: "PS4",
+        cover: "https://images.igdb.com/igdb/image/upload/t_cover_big/co1r7h.webp",
     },
     {
         nota: 8,
@@ -190,6 +213,7 @@ export const games = [
         genero: ["Luta"],
         tempo: "17h 53m",
         versao: "PS4",
+        cover: "https://images.igdb.com/igdb/image/upload/t_cover_big/co1ulj.webp",
     },
     {
         nota: 8,
@@ -198,6 +222,7 @@ export const games = [
         genero: ["Luta"],
         tempo: "38h 42m",
         versao: "PS4",
+        cover: "https://images.igdb.com/igdb/image/upload/t_cover_big/co3whm.webp",
     },
     {
         nota: 8,
@@ -206,6 +231,7 @@ export const games = [
         genero: ["Ação"],
         tempo: "34h 30m",
         versao: "PS4",
+        cover: "https://images.igdb.com/igdb/image/upload/t_cover_big/co1tmu.webp",
     },
     {
         nota: 9,
@@ -214,6 +240,7 @@ export const games = [
         genero: ["Visual Novel"],
         tempo: "11h 30m",
         versao: "PC",
+        cover: "https://images.igdb.com/igdb/image/upload/t_cover_big/co8kvi.webp",
     },
     {
         nota: 9,
@@ -222,6 +249,7 @@ export const games = [
         genero: ["Visual Novel"],
         tempo: "3h 50m",
         versao: "PC",
+        cover: "https://images.igdb.com/igdb/image/upload/t_cover_big/co24qe.webp",
     },
     {
         nota: 8,
@@ -230,6 +258,7 @@ export const games = [
         genero: ["Survival Horror"],
         tempo: "12h 41m",
         versao: "PC",
+        cover: "https://images.igdb.com/igdb/image/upload/t_cover_big/co2zpu.webp",
     },
     {
         nota: 8,
@@ -238,6 +267,7 @@ export const games = [
         genero: ["Filme Interativo"],
         tempo: "14h 18m",
         versao: "PC",
+        cover: "https://images.igdb.com/igdb/image/upload/t_cover_big/co6mzf.webp",
     },
     {
         nota: 8,
@@ -246,6 +276,7 @@ export const games = [
         genero: ["Atmosférico"],
         tempo: "11h 11m",
         versao: "PC",
+        cover: "https://images.igdb.com/igdb/image/upload/t_cover_big/co62kn.webp",
     },
     {
         nota: 8,
@@ -254,6 +285,7 @@ export const games = [
         genero: ["Visual Novel"],
         tempo: "1h 11m",
         versao: "PC",
+        cover: "https://images.igdb.com/igdb/image/upload/t_cover_big/co5qxb.webp",
     },
     {
         nota: 8,
@@ -262,6 +294,7 @@ export const games = [
         genero: ["Survival Horror"],
         tempo: "12h 54m",
         versao: "PC",
+        cover: "https://images.igdb.com/igdb/image/upload/t_cover_big/co20x5.webp",
     },
     {
         nota: 8,
@@ -270,6 +303,7 @@ export const games = [
         genero: ["RPG"],
         tempo: "11h 24m",
         versao: "PC",
+        cover: "https://images.igdb.com/igdb/image/upload/t_cover_big/co2855.webp",
     },
     {
         nota: 8,
@@ -278,6 +312,7 @@ export const games = [
         genero: ["Visual Novel"],
         tempo: "6h 12m",
         versao: "PC",
+        cover: "https://images.igdb.com/igdb/image/upload/t_cover_big/co2ftq.webp",
     },
     {
         nota: 8,
@@ -286,6 +321,7 @@ export const games = [
         genero: ["Terror"],
         tempo: "7h 42m",
         versao: "PC",
+        cover: "https://images.igdb.com/igdb/image/upload/t_cover_big/co1rdi.webp",
     },
     {
         nota: 8,
@@ -294,6 +330,7 @@ export const games = [
         genero: ["Survival Horror"],
         tempo: "18h 41m",
         versao: "PC",
+        cover: "https://images.igdb.com/igdb/image/upload/t_cover_big/co67g5.webp",
     },
     {
         nota: 8,
@@ -302,6 +339,7 @@ export const games = [
         genero: ["Visual Novel"],
         tempo: "2h 47m",
         versao: "PC",
+        cover: "https://images.igdb.com/igdb/image/upload/t_cover_big/co66pt.webp",
     },
     {
         nota: 8,
@@ -310,6 +348,7 @@ export const games = [
         genero: ["Survival Horror"],
         tempo: "9h 35m",
         versao: "PC",
+        cover: "https://images.igdb.com/igdb/image/upload/t_cover_big/co1ir3.webp",
     },
     {
         nota: 7,
@@ -318,6 +357,7 @@ export const games = [
         genero: ["Terror"],
         tempo: "1h 25m",
         versao: "PC",
+        cover: "https://images.igdb.com/igdb/image/upload/t_cover_big/co8coy.webp",
     },
     {
         nota: 8,
@@ -326,6 +366,7 @@ export const games = [
         genero: ["Terror"],
         tempo: "9h 05m",
         versao: "PC",
+        cover: "https://images.igdb.com/igdb/image/upload/t_cover_big/co85h5.webp",
     },
     {
         nota: 8,
@@ -334,6 +375,7 @@ export const games = [
         genero: ["Hack and Slash"],
         tempo: "13h 35m",
         versao: "PC",
+        cover: "https://images.igdb.com/igdb/image/upload/t_cover_big/co8ngp.webp",
     },
     {
         nota: 8,
@@ -342,6 +384,7 @@ export const games = [
         genero: ["Terror"],
         tempo: "1h 23m",
         versao: "PC",
+        cover: "https://images.igdb.com/igdb/image/upload/t_cover_big/co7ozd.webp",
     },
     {
         nota: 8,
@@ -350,6 +393,7 @@ export const games = [
         genero: ["Terror"],
         tempo: "13h 35m",
         versao: "PC",
+        cover: "https://images.igdb.com/igdb/image/upload/t_cover_big/co2evj.webp",
     },
     {
         nota: 8,
@@ -358,6 +402,7 @@ export const games = [
         genero: ["Hack and Slash"],
         tempo: "28h 00m",
         versao: "PC",
+        cover: "https://images.igdb.com/igdb/image/upload/t_cover_big/co2n18.webp",
     },
     {
         nota: 8,
@@ -366,6 +411,7 @@ export const games = [
         genero: ["Filme Interativo"],
         tempo: "20h 23m",
         versao: "PC",
+        cover: "https://images.igdb.com/igdb/image/upload/t_cover_big/co1r8e.webp",
     },
     {
         nota: 8,
@@ -374,6 +420,7 @@ export const games = [
         genero: ["Soulslike"],
         tempo: "17h 18m",
         versao: "PC",
+        cover: "https://images.igdb.com/igdb/image/upload/t_cover_big/co2a23.webp",
     },
     {
         nota: 8,
@@ -382,6 +429,7 @@ export const games = [
         genero: ["Terror"],
         tempo: "1h 11m",
         versao: "PC",
+        cover: "https://images.igdb.com/igdb/image/upload/t_cover_big/co5i86.webp",
     },
     {
         nota: 8,
@@ -390,6 +438,7 @@ export const games = [
         genero: ["Survival Horror"],
         tempo: "7h 35m",
         versao: "PC",
+        cover: "https://images.igdb.com/igdb/image/upload/t_cover_big/co8zvu.webp",
     },
     {
         nota: 8,
@@ -398,6 +447,7 @@ export const games = [
         genero: ["Terror Psicológico"],
         tempo: "0h 30m",
         versao: "PC",
+        cover: "https://images.igdb.com/igdb/image/upload/t_cover_big/co99t4.webp",
     },
     {
         nota: 8,
@@ -406,6 +456,7 @@ export const games = [
         genero: ["Terror Psicológico"],
         tempo: "1h 06m",
         versao: "PC",
+        cover: "https://images.igdb.com/igdb/image/upload/t_cover_big/co8qyb.webp",
     },
     {
         nota: 8,
@@ -414,6 +465,7 @@ export const games = [
         genero: ["Luta"],
         tempo: "0h 28m",
         versao: "PS2",
+        cover: "https://images.igdb.com/igdb/image/upload/t_cover_big/co45jq.webp",
     },
     {
         nota: 8,
@@ -422,6 +474,7 @@ export const games = [
         genero: ["Visual Novel"],
         tempo: "0h 28m",
         versao: "PC",
+        cover: "https://images.igdb.com/igdb/image/upload/t_cover_big/co62h1.webp",
     },
     {
         nota: 7,
@@ -430,6 +483,7 @@ export const games = [
         genero: ["Visual Novel"],
         tempo: "04h 50m",
         versao: "PC",
+        cover: "https://images.igdb.com/igdb/image/upload/t_cover_big/co41d5.webp",
     },
     {
         nota: 7,
@@ -438,6 +492,7 @@ export const games = [
         genero: ["Terror"],
         tempo: "4h 05m",
         versao: "PC",
+        cover: "https://images.igdb.com/igdb/image/upload/t_cover_big/co4248.webp",
     },
     {
         nota: 7,
@@ -446,6 +501,7 @@ export const games = [
         genero: ["Visual Novel"],
         tempo: "8h 30m",
         versao: "PC",
+        cover: "https://images.igdb.com/igdb/image/upload/t_cover_big/co55rx.webp",
     },
     {
         nota: 7,
@@ -454,6 +510,7 @@ export const games = [
         genero: ["Survival Horror"],
         tempo: "6h 42m",
         versao: "PC",
+        cover: "https://images.igdb.com/igdb/image/upload/t_cover_big/co22l7.webp",
     },
     {
         nota: 7,
@@ -462,6 +519,7 @@ export const games = [
         genero: ["Terror Psicológico"],
         tempo: "6h 47m",
         versao: "PC",
+        cover: "https://images.igdb.com/igdb/image/upload/t_cover_big/co20cu.webp",
     },
     {
         nota: 7,
@@ -470,6 +528,7 @@ export const games = [
         genero: ["Survival Horror"],
         tempo: "10h 41m",
         versao: "PC",
+        cover: "https://images.igdb.com/igdb/image/upload/t_cover_big/co3pyq.webp",
     },
     {
         nota: 7,
@@ -478,6 +537,7 @@ export const games = [
         genero: ["Terror"],
         tempo: "0h 18m",
         versao: "PC",
+        cover: "https://images.igdb.com/igdb/image/upload/t_cover_big/co7tm6.webp",
     },
     {
         nota: 7,
@@ -486,6 +546,7 @@ export const games = [
         genero: ["Visual Novel"],
         tempo: "4h 35m",
         versao: "PC",
+        cover: "https://images.igdb.com/igdb/image/upload/t_cover_big/co69l5.webp",
     },
     {
         nota: 7,
@@ -494,6 +555,7 @@ export const games = [
         genero: ["Puzzle"],
         tempo: "2h 42m",
         versao: "PC",
+        cover: "https://images.igdb.com/igdb/image/upload/t_cover_big/co27bf.webp",
     },
     {
         nota: 7,
@@ -502,6 +564,7 @@ export const games = [
         genero: ["Terror Psicológico"],
         tempo: "1h 49m",
         versao: "PC",
+        cover: "https://images.igdb.com/igdb/image/upload/t_cover_big/co9jva.webp",
     },
     {
         nota: 7,
@@ -510,6 +573,7 @@ export const games = [
         genero: ["Terror"],
         tempo: "7h 30m",
         versao: "PC",
+        cover: "https://images.igdb.com/igdb/image/upload/t_cover_big/co1oew.webp",
     },
     {
         nota: 7,
@@ -518,6 +582,7 @@ export const games = [
         genero: ["Atmosférico"],
         tempo: "8h 11m",
         versao: "PC",
+        cover: "https://images.igdb.com/igdb/image/upload/t_cover_big/co1m35.webp",
     },
     {
         nota: 6,
@@ -526,6 +591,7 @@ export const games = [
         genero: ["Visual Novel"],
         tempo: "1h 00m",
         versao: "PC",
+        cover: "https://images.igdb.com/igdb/image/upload/t_cover_big/co44y4.webp",
     },
     {
         nota: 9,
@@ -534,5 +600,6 @@ export const games = [
         genero: ["Visual Novel", "Point and Click"],
         tempo: "1h 47m",
         versao: "PC",
+        cover: "https://images.igdb.com/igdb/image/upload/t_cover_big/co9y1s.webp",
     },
 ];
