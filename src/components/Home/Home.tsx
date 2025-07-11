@@ -28,9 +28,9 @@ const GameCard: React.FC<{ game: Game }> = ({ game }) => {
                 />
 
                 {/* Sobreposição com Tempo e Data (aparece no hover) */}
-                <div className="absolute inset-0 flex flex-col items-center justify-center rounded-lg bg-black/60 text-white opacity-0 transition-opacity duration-300 group-hover:opacity-100">
-                    <span className="text-sm font-medium">{game.tempo}</span>
-                    <span className="text-xs text-neutral-300">{game.data}</span>
+                <div className="absolute inset-0 flex flex-col items-center justify-center rounded-lg bg-black/70 text-white opacity-0 transition-opacity duration-300 group-hover:opacity-100">
+                    <span className="text-md font-medium">{game.data}</span>
+                    <span className="text-sm text-neutral-300">{game.tempo}</span>
                 </div>
 
                 {/* Nota do Jogo */}

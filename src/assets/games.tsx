@@ -594,12 +594,21 @@ export const games = [
         cover: "https://images.igdb.com/igdb/image/upload/t_cover_big/co44y4.webp",
     },
     {
-        nota: 9,
+        nota: 8,
         nome: "Grizzly Man",
         data: "10/jun/2025",
         genero: ["Visual Novel", "Point and Click"],
         tempo: "1h 47m",
         versao: "PC",
         cover: "https://images.igdb.com/igdb/image/upload/t_cover_big/co9y1s.webp",
+    },
+    {
+        nota: 8,
+        nome: "The NOexistenceN of you AND me",
+        data: "11/jul/2025",
+        genero: ["Visual Novel"],
+        tempo: "1h 50m",
+        versao: "PC",
+        cover: "https://images.igdb.com/igdb/image/upload/t_cover_big/co9apq.webp",
     },
 ];
