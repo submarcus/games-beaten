@@ -632,4 +632,13 @@ export const games = [
         cover: "https://images.igdb.com/igdb/image/upload/t_cover_big/co9apq.webp",
         review: "https://steamcommunity.com/id/maahlune/recommended/2873080/",
     },
+    {
+        nota: 6,
+        nome: "Late Stops",
+        data: "12/jul/2025",
+        genero: ["Terror", "PSX"],
+        tempo: "0h 30m",
+        versao: "PC",
+        cover: "https://images.igdb.com/igdb/image/upload/t_cover_big/coa3yc.webp",
+    },
 ];
