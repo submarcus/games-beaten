@@ -195,6 +195,15 @@ export const games = [
     },
     {
         nota: 8,
+        nome: "Crash Bandicoot",
+        data: "16/jul/2025",
+        genero: ["Plataforma"],
+        tempo: "4h 0m",
+        versao: "PS1",
+        cover: "https://images.igdb.com/igdb/image/upload/t_cover_big/co555l.webp",
+    },
+    {
+        nota: 8,
         nome: "Until Dawn",
         data: "23/dez/2018",
         genero: ["Filme Interativo"],
