@@ -340,7 +340,7 @@ export const games = [
         cover: "https://images.igdb.com/igdb/image/upload/t_cover_big/co67g5.webp",
     },
     {
-        nota: 8,
+        nota: 7,
         nome: "Selene ~Apoptosis~",
         data: "29/mar/2023",
         genero: ["Visual Novel"],
@@ -445,7 +445,7 @@ export const games = [
         review: "https://steamcommunity.com/id/maahlune/recommended/1696960/",
     },
     {
-        nota: 8,
+        nota: 9,
         nome: "Resident Evil: Revelations",
         data: "24/nov/2024",
         genero: ["Survival Horror"],
@@ -483,7 +483,7 @@ export const games = [
         cover: "https://images.igdb.com/igdb/image/upload/t_cover_big/co45jq.webp",
     },
     {
-        nota: 8,
+        nota: 7,
         nome: "Locke(d)",
         data: "08/mai/2025",
         genero: ["Visual Novel"],
@@ -492,7 +492,7 @@ export const games = [
         cover: "https://images.igdb.com/igdb/image/upload/t_cover_big/co62h1.webp",
     },
     {
-        nota: 7,
+        nota: 8,
         nome: "Go! Go! Nippon! ~My First Trip to Japan~",
         data: "10/jul/2025",
         genero: ["Visual Novel"],
@@ -511,7 +511,7 @@ export const games = [
         cover: "https://images.igdb.com/igdb/image/upload/t_cover_big/co4248.webp",
     },
     {
-        nota: 7,
+        nota: 8,
         nome: "Coffee Talk",
         data: "18/fev/2023",
         genero: ["Visual Novel"],
@@ -520,7 +520,7 @@ export const games = [
         cover: "https://images.igdb.com/igdb/image/upload/t_cover_big/co55rx.webp",
     },
     {
-        nota: 7,
+        nota: 8,
         nome: "Resident Evil 3 (2020)",
         data: "11/abr/2023",
         genero: ["Survival Horror"],
@@ -538,7 +538,7 @@ export const games = [
         cover: "https://images.igdb.com/igdb/image/upload/t_cover_big/co20cu.webp",
     },
     {
-        nota: 7,
+        nota: 8,
         nome: "Resident Evil 6",
         data: "18/out/2023",
         genero: ["Survival Horror"],

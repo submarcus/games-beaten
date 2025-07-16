@@ -21,18 +21,20 @@ const Header = ({ games }: HeaderProps) => {
     }, 0);
 
     return (
-        <div className="bg-neutral-950 rounded-lg mb-2 cursor-default">
+        <div className="bg-neutral-950 rounded-lg mb-10 cursor-default">
             <div className="flex justify-center items-center">
                 <div className="grid grid-cols-3 gap-4 text-center">
-                    <div className="invisible sm:visible border border-neutral-800 bg-neutral-950 shadow-inner shadow-neutral-800 rounded-lg p-3">
+                    <div className="invisible sm:visible flex flex-col items-center justify-center border border-neutral-800 bg-neutral-950 shadow-inner shadow-neutral-800 rounded-lg p-3">
                         <div className="text-white font-bold text-lg">{totalGames}</div>
                         <div className="text-neutral-400 text-sm">Total</div>
                     </div>
-                    <img
-                        src="https://static-cdn.jtvnw.net/jtv_user_pictures/acaaed40-6259-41da-9a8d-7688650fa685-profile_image-70x70.png"
-                        className="border border-neutral-800 bg-neutral-950 shadow-inner shadow-neutral-800 rounded-lg"
-                    />
-                    <div className="invisible sm:visible border border-neutral-800 bg-neutral-950 shadow-inner shadow-neutral-800 rounded-lg p-3">
+                    <a href="https://steamcommunity.com/id/maahlune" target="_blank">
+                        <img
+                            src="https://media1.tenor.com/m/t6QYnUZF7rwAAAAC/anko-koshi-shikanoko.gif"
+                            className="border border-neutral-800 bg-neutral-950 shadow-inner shadow-neutral-800 rounded-lg size-20 object-cover"
+                        />
+                    </a>
+                    <div className="invisible sm:visible flex flex-col items-center justify-center border border-neutral-800 bg-neutral-950 shadow-inner shadow-neutral-800 rounded-lg p-3">
                         <div className="text-white font-bold text-lg">{totalHours}h</div>
                         <div className="text-neutral-400 text-sm">Tempo</div>
                     </div>
