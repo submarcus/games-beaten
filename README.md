@@ -1,69 +1,64 @@
-# React + TypeScript + Vite
+## 🎮 Meus Jogos Zerados
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Uma aplicação para catalogar e exibir todos os jogos que já zerei.
 
-Currently, two official plugins are available:
+## 🎯 Sobre o Projeto
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Este é meu catálogo pessoal de jogos completados, onde registro todos os jogos que terminei ao longo do tempo. A aplicação permite visualizar informações detalhadas como nota, tempo de jogo, gênero, plataforma e muito mais.
 
-## Expanding the ESLint configuration
+## 🛠️ Tecnologias Utilizadas
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+-   **React**
+-   **TypeScript**
+-   **Vite**
+-   **Tailwind CSS**
+-   **React Icons**
+-   **React Router**
 
-```js
-export default tseslint.config([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
+## 📁 Estrutura do Projeto
 
-      // Remove tseslint.configs.recommended and replace with this
-      ...tseslint.configs.recommendedTypeChecked,
-      // Alternatively, use this for stricter rules
-      ...tseslint.configs.strictTypeChecked,
-      // Optionally, add this for stylistic rules
-      ...tseslint.configs.stylisticTypeChecked,
-
-      // Other configs...
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
+```
+src/
+├── components/
+│   ├── GameCard/     # Componente do card de jogo
+│   ├── Header/       # Cabeçalho com estatísticas
+│   └── Home/         # Página principal com filtros
+├── assets/
+│   └── games.tsx     # Base de dados dos jogos
+├── App.tsx          # Componente principal
+└── main.tsx         # Ponto de entrada
 ```
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
+## 🎮 Estrutura dos Dados
 
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
+Cada jogo possui as seguintes informações:
 
-export default tseslint.config([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
-      // Enable lint rules for React
-      reactX.configs['recommended-typescript'],
-      // Enable lint rules for React DOM
-      reactDom.configs.recommended,
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
+```typescript
+interface Game {
+    nota: number; // Nota de 1-10
+    nome: string; // Nome do jogo
+    data: string; // Data de conclusão
+    genero: string[]; // Gêneros do jogo
+    tempo: string; // Tempo total jogado
+    versao: string; // Plataforma/versão
+    cover?: string; // URL da capa
+    review?: string; // Link para review
+}
 ```
+
+## 🌟 Funcionalidades Futuras
+
+-   [ ] Sistema de busca por nome
+-   [ ] Sistema de tags personalizadas
+-   [ ] Gráficos e estatísticas avançadas
+-   [ ] Export/import de dados
+-   [ ] Modo de lista compacta
+
+## 🤝 Contribuição
+
+Este é um projeto pessoal, mas sugestões e melhorias são sempre bem-vindas!
+
+## 📞 Contato
+
+-   Steam: [maahlune](https://steamcommunity.com/id/maahlune)
+-   GitHub: [@maahlune](https://github.com/maahlune)
