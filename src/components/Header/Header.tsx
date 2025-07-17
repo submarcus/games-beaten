@@ -30,7 +30,7 @@ const Header = ({ games }: HeaderProps) => {
                     </div>
                     <a href="https://steamcommunity.com/id/maahlune" target="_blank">
                         <img
-                            src="https://media1.tenor.com/m/t6QYnUZF7rwAAAAC/anko-koshi-shikanoko.gif"
+                            src="https://media.tenor.com/sLmwzD14Pk0AAAAM/gets-mad-but-then-turn-calm-and-annoyed-and-keep-eating-cookie.gif"
                             className="border border-neutral-800 bg-neutral-950 shadow-inner shadow-neutral-800 rounded-lg size-20 object-cover"
                         />
                     </a>
