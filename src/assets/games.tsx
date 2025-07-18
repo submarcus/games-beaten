@@ -213,6 +213,15 @@ export const games = [
     },
     {
         nota: 8,
+        nome: "Crash Bandicoot 3: Warped",
+        data: "18/jul/2025",
+        genero: ["Plataforma"],
+        tempo: "3h 0m",
+        versao: "PS1",
+        cover: "https://images.igdb.com/igdb/image/upload/t_cover_big/co873w.webp",
+    },
+    {
+        nota: 8,
         nome: "Until Dawn",
         data: "23/dez/2018",
         genero: ["Filme Interativo"],
