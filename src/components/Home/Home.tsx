@@ -244,10 +244,10 @@ const Home = ({ games }: HomeProps) => {
                 </div>
             </div>
 
-            <div className="text-neutral-200 text-2xl text-center mb-1">MaahLune</div>
+            <div className="text-neutral-200 text-xl text-center mb-1">MaahLune</div>
             <div className="text-neutral-400 text-sm text-center mb-4">
                 {filters.sortBy === "data"
-                    ? "Últimos Zerados"
+                    ? "Mais Recentes"
                     : filters.sortBy === "nome"
                     ? "Ordem Alfabética"
                     : "Melhores Avaliados"}
