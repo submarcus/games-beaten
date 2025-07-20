@@ -195,6 +195,16 @@ export const games = [
     },
     {
         nota: 8,
+        nome: "ABZÛ",
+        data: "20/jul/2025",
+        genero: ["Aventura", "Exploração"],
+        tempo: "1h 30m",
+        versao: "PC",
+        cover: "https://images.igdb.com/igdb/image/upload/t_cover_big/co28sy.webp",
+        review: "https://steamcommunity.com/id/maahlune/recommended/384190/",
+    },
+    {
+        nota: 8,
         nome: "Crash Bandicoot",
         data: "16/jul/2025",
         genero: ["Plataforma"],
@@ -212,7 +222,7 @@ export const games = [
         cover: "https://images.igdb.com/igdb/image/upload/t_cover_big/co82vt.webp",
     },
     {
-        nota: 8,
+        nota: 7,
         nome: "Crash Bandicoot 3: Warped",
         data: "18/jul/2025",
         genero: ["Plataforma"],
