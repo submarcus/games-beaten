@@ -368,6 +368,15 @@ export const games = [
         cover: "https://images.igdb.com/igdb/image/upload/t_cover_big/co1rdi.webp",
     },
     {
+        nota: 9,
+        nome: "Little Nightmares II",
+        data: "27/jul/2025",
+        genero: ["Terror"],
+        tempo: "5h 50m",
+        versao: "PC",
+        cover: "https://images.igdb.com/igdb/image/upload/t_cover_big/coa17l.webp",
+    },
+    {
         nota: 8,
         nome: "Sons Of The Forest",
         data: "27/fev/2023",
