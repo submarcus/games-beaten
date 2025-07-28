@@ -57,8 +57,3 @@ interface Game {
 ## 🤝 Contribuição
 
 Este é um projeto pessoal, mas sugestões e melhorias são sempre bem-vindas!
-
-## 📞 Contato
-
--   Steam: [maahlune](https://steamcommunity.com/id/maahlune)
--   GitHub: [@maahlune](https://github.com/maahlune)
