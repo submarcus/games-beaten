@@ -244,7 +244,11 @@ const Home = ({ games }: HomeProps) => {
                 </div>
             </div>
 
-            <div className="text-neutral-200 text-xl text-center mb-1">MaahLune</div>
+            <div className="text-neutral-200 text-xl text-center mb-1 hover:text-neutral-400">
+                <a href="https://coelhomarcus.com" target="_blank" rel="noopener noreferrer">
+                    Marcus
+                </a>
+            </div>
             <div className="text-neutral-400 text-sm text-center mb-4">
                 {filters.sortBy === "data"
                     ? "Mais Recentes"
