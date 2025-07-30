@@ -7,7 +7,7 @@ export const games = [
         tempo: "169h 41m",
         versao: "PC",
         cover: "https://images.igdb.com/igdb/image/upload/t_cover_big/co7iy1.webp",
-        review: "https://steamcommunity.com/id/maahlune/recommended/1091500/",
+        review: 'Não sei nem por onde começar a falar, mas de algo tenho certeza: PODE COMPRAR sem medo, pois vale cada centavo.\n\nComecei a jogar Cyberpunk 2077 sem nenhuma expectativa, pois já estava com a ideia fixa de que o jogo não era bom, muito por causa do seu lançamento desastroso. Só que não esperava que esse mesmo jogo se tornaria o meu favorito! E, cara, como esse jogo é bom.\n\nÉ prazeroso passear por Night City. Tudo é muito lindo e bem feito. O jeito que projetaram a cidade me agradou demais: todas as construções, as tecnologias, as propagandas, cada detalhe te faz sentir o carinho que foi colocado nesse jogo. Nenhum outro jogo antes tinha me deixado tão fissurado quanto Cyberpunk. E olha que me apego muito a esse tipo de entretenimento, mas Cyberpunk é diferente... foi o único que me deu vontade de fazer cada serviço, cada missão secundária, tudo que aparece eu quero fazer. A história do jogo também é muito interessante, e as missões secundárias complementam bastante a experiência. Cada "arco" te prende de uma maneira que nem consigo descrever a perfeição que esse jogo é.\n\nSe você ainda está com preconceito e achando que o jogo é ruim, tente dar uma chance. Tenho certeza de que não irá se arrepender.\n\nRecomendo muito.',
     },
     {
         nota: 10,
@@ -17,7 +17,7 @@ export const games = [
         tempo: "426h 41m",
         versao: "PC",
         cover: "https://images.igdb.com/igdb/image/upload/t_cover_big/co4jni.webp",
-        review: "https://steamcommunity.com/id/maahlune/recommended/1245620/",
+        review: "Esse jogo é simplesmente uma obra de arte. Todo o universo do jogo é fantástico, a jogabilidade dispensa comentários, e os gráficos, então, nem se fala. Parece que estou vendo uma pintura a cada momento. A FromSoftware é surreal. É realmente muito bom.\n\nOutra coisa é a sensação de recompensa que você sente após matar cada boss. Isso é bizarro! Nenhum outro jogo tinha me feito vibrar tanto ao conseguir matar um boss. É muito boa a sensação de superar o desafio, e tenho certeza de que quem jogou vai concordar comigo.\n\nFoi o meu primeiro Soulslike que zerei e recomendo demais!",
     },
     {
         nota: 10,
@@ -27,7 +27,7 @@ export const games = [
         tempo: "37h 53m",
         versao: "PC",
         cover: "https://images.igdb.com/igdb/image/upload/t_cover_big/co1vcf.webp",
-        review: "https://steamcommunity.com/id/maahlune/recommended/374320/",
+        review: "Jogaço! Após ter jogado Elden Ring, quis me aventurar na série Souls, e o que mais me chamava a atenção era Dark Souls III. Então, comecei a jogar e, cara, que jogo bom! É muito gostoso de jogar e progredir. Os gráficos são lindos, bem característicos da época. Dou 10/10, gostei muito.",
     },
     {
         nota: 10,
@@ -49,6 +49,16 @@ export const games = [
     },
     {
         nota: 9,
+        nome: "Elden Ring Nightreign",
+        data: "27/jun/2024",
+        genero: ["Soulslike"],
+        tempo: "42h 30m",
+        versao: "PC",
+        cover: "https://images.igdb.com/igdb/image/upload/t_cover_big/co95gk.webp",
+        review: "O jogo é muito bom, estou me divertindo bastante com meu amigo, nem dá vontade de parar de jogar :D\n\nRecomendo demais! Os novos bosses estão muito legais também.\n\nO jogo tem sim suas falhas mas fico triste em ver as análises negativas reclamando de coisas que já tinham sido explicadas há muito tempo, não é nenhuma novidade.\n\nTenho certeza de que, se jogarem de cabeça fria/aberta, vão se divertir demais.\n\nTomara que a FromSoftware não deixe esse jogo de lado, pois vejo muito potencial nele.",
+    },
+    {
+        nota: 9,
         nome: "Shadow of Memories",
         data: "19/jan/2025",
         genero: ["Atmosférico"],
@@ -64,7 +74,7 @@ export const games = [
         tempo: "74h 00m",
         versao: "PC",
         cover: "https://images.igdb.com/igdb/image/upload/t_cover_big/co92hl.webp",
-        review: "https://steamcommunity.com/id/maahlune/recommended/3513350/",
+        review: "Muito bom! Gráfico lindo, design de personagens muito legal. Até o momento, parece ser bem safe para jogadores f2p, visto que já consegui diversos personagens com relativamente poucos tiros, mas pode ter sido sorte. As cutscenes são muito bonitas também.\n\nTá aprovado!",
     },
     {
         nota: 10,
@@ -182,7 +192,7 @@ export const games = [
         tempo: "10h 41m",
         versao: "PC",
         cover: "https://images.igdb.com/igdb/image/upload/t_cover_big/co94lc.webp",
-        review: "https://steamcommunity.com/id/maahlune/recommended/960910/",
+        review: "ABSOLUTE CINEMA. Cara, namoral, que jogo bom! A história é 10/10, cheia de plots interessantíssimos. Tive o prazer de jogar sem nenhum spoiler, e que experiência única! Simplesmente zerei em dois dias. No começo, achei que o jogo não ia me pegar tanto, mas eu não poderia estar mais errado. Que obra-prima!\n\nRecomendo demais, demais mesmo!",
     },
     {
         nota: 8,
@@ -201,7 +211,7 @@ export const games = [
         tempo: "1h 30m",
         versao: "PC",
         cover: "https://images.igdb.com/igdb/image/upload/t_cover_big/co28sy.webp",
-        review: "https://steamcommunity.com/id/maahlune/recommended/384190/",
+        review: "Simplesmente lindo!!!",
     },
     {
         nota: 8,
@@ -283,7 +293,7 @@ export const games = [
         tempo: "11h 30m",
         versao: "PC",
         cover: "https://images.igdb.com/igdb/image/upload/t_cover_big/co8kvi.webp",
-        review: "https://steamcommunity.com/id/maahlune/recommended/3068300/",
+        review: "Tive que vir fazer essa análise. Por algum motivo, esse jogo me traz uma sensação de nostalgia, uma sensação de, sei lá... infância. Sabe aqueles dias em que você chegava da escola e não tinha nenhuma preocupação? Ou então um sábado em que passava o dia assistindo TV e comendo? É essa mesma vibe.\n\nA leitura é bem suave, a arte mt linda e trilha sonora mt boa.\n\nRecomendo!\n\nAtualização:\nFinalizei o jogo e continuo recomendando. Tudo o que falei anteriormente se aplica mais aos primeiros atos. Depois, ele ganha uma pegada um pouquinho diferente mas ainda muito boa. É de graça, vale a pena a experiência.",
     },
     {
         nota: 9,
@@ -293,7 +303,7 @@ export const games = [
         tempo: "3h 50m",
         versao: "PC",
         cover: "https://images.igdb.com/igdb/image/upload/t_cover_big/co24qe.webp",
-        review: "https://steamcommunity.com/id/maahlune/recommended/623080/",
+        review: "Planetarian é uma obra-prima. Consegue te confortar mesmo em um cenário que abdicou desse sentimento. Muito bom mesmo, recomendo que joguem o quanto antes. Muito fofo e emocionante.",
     },
     {
         nota: 8,
@@ -375,6 +385,7 @@ export const games = [
         tempo: "5h 50m",
         versao: "PC",
         cover: "https://images.igdb.com/igdb/image/upload/t_cover_big/coa17l.webp",
+        review: "Muuuuuuito bom! Consegue ser ainda melhor que o primeiro, que já era perfeito.\n\nRecomendo demais, uma joia rara dos jogos de terror.\n\nPode ir sem medo!",
     },
     {
         nota: 8,
@@ -411,7 +422,7 @@ export const games = [
         tempo: "1h 25m",
         versao: "PC",
         cover: "https://images.igdb.com/igdb/image/upload/t_cover_big/co8coy.webp",
-        review: "https://steamcommunity.com/id/maahlune/recommended/2580020/",
+        review: "Achei muito interessante!\n\nTinha visto a demo do jogo e me chamou bastante atenção. Apesar de curto, é muito bom, o universo do game me deixou bem curioso e instigou a descobrir mais.\n\nAs mecânicas são bem feitas e não ficam repetitivas. Conseguiram equilibrar bem a jogabilidade com os eventos do jogo.\n\nMas na minha opinião os finais deixaram a desejar, então recomendo mas em promoção.",
     },
     {
         nota: 8,
@@ -430,7 +441,7 @@ export const games = [
         tempo: "13h 35m",
         versao: "PC",
         cover: "https://images.igdb.com/igdb/image/upload/t_cover_big/co8ngp.webp",
-        review: "https://steamcommunity.com/id/maahlune/recommended/460790/",
+        review: "Muito bom\n\nNunca tinha jogado nenhum jogo da série Bayonetta, e, para ser sincero, nunca tinha visto nada sobre. Mas vi que estava em promoção e decidi me arriscar, e, cara, que jogo bom! Hack and slash de respeito, com gráficos lindos mesmo sendo 'antigo', design muito bem feito e história bem interessante. Recomendo muito. É uma pena que não tenha os outros Bayonetta para PC; se tivesse, com certeza eu jogaria.\n\nRecomendado.",
     },
     {
         nota: 8,
@@ -440,7 +451,7 @@ export const games = [
         tempo: "1h 23m",
         versao: "PC",
         cover: "https://images.igdb.com/igdb/image/upload/t_cover_big/co7ozd.webp",
-        review: "https://steamcommunity.com/id/maahlune/recommended/2771670/",
+        review: "Recomendo\n\nEstilo de arte PSX, mecânicas bem feitas e divertidas. A protagonista me lembra um pouco a de Milk Inside a Bag of Milk Inside a Bag of Milk. O jogo é bem curtinho e vale a experiência. É de graça e está em português.",
     },
     {
         nota: 8,
@@ -459,7 +470,7 @@ export const games = [
         tempo: "28h 00m",
         versao: "PC",
         cover: "https://images.igdb.com/igdb/image/upload/t_cover_big/co2n18.webp",
-        review: "https://steamcommunity.com/id/maahlune/recommended/631510/",
+        review: "Vou separar essa analise em três partes para os respectivos jogos.\n\nDMC 1:\nEsse foi o meu primeiro contato com a franquia. Não conhecia o jogo e só sabia que era uma das versões de Resident Evil 4 que foram feitas e acabou se tornando um jogo à parte.\n\nO jogo é muito bom. A história é simples de entender; nada é muito aprofundado nesse game. Dá para perceber algumas coisas que eles estavam testando, por assim dizer. O combate é bem divertido, mas muito desafiador. Posso dizer que, muitas vezes, é até desleal/desbalanceado, mas, com muita paciência, é possível zerar numa boa. Uma dica é: dê valor aos orbs.\n\nOs gráficos não me incomodam, pois gosto muito dos gráficos do PlayStation 2. Me dá nostalgia, e gosto muito de jogos dessa época e estética.\n\nUm bom jogo como introdução.\n\nDMC 2:\nBom, fui jogar com uma expectativa baixa, pois já tinha visto inúmeros relatos de que este seria o pior da série. Mas, por incrível que pareça, eu gostei. Há aspectos que realmente são inferiores, mas acabam compensando com as novas adições.\n\nOs gráficos não evoluíram muito do primeiro para o segundo, mas continuam bem bonitos, no clássico estilo do PlayStation 2. O combate é complicado, pois houve inovações nos movimentos em comparação com o primeiro jogo. Por exemplo, neste jogo há a opção de esquiva, enquanto no primeiro só era possível pular. Em compensação, os inimigos deste jogo parecem ser bem mais fáceis que os do anterior. Portanto, vai do gosto de cada um; eu gostei.\n\nA história seguiu a mesma linha do primeiro jogo também, nada muito aprofundado, apenas informações superficiais. Mesmo assim, ainda estou interessado em prosseguir.\n\nTambém recomendo este jogo.\n\nDMC 3:\nO salto dos primeiros jogos para o terceiro é absurdo. Se você, assim como eu, gostou dos anteriores, este aqui será um banquete.\n\nTudo nesse jogo é muito superior: o combate, a história, os chefes... tudo foi muito bem feito. Valeu a pena passar pelos outros jogos e poder experienciar a evolução discrepante. Gostei muito; a identidade criada nesse jogo foi excelente.\n\nOs gráficos não têm o que falar, são muito bonitos mesmo. Os modelos estão infinitamente superiores, muito lindos.\n\nRecomendo.",
     },
     {
         nota: 8,
@@ -469,7 +480,7 @@ export const games = [
         tempo: "20h 23m",
         versao: "PC",
         cover: "https://images.igdb.com/igdb/image/upload/t_cover_big/co1r8e.webp",
-        review: "https://steamcommunity.com/id/maahlune/recommended/319630/",
+        review: "O jogo envelheceu bem, tem uma história legal, gráficos bonitos, trilha sonora muito boa e uma platina fácil para quem gosta de conquistas.\n\nRecomendo.",
     },
     {
         nota: 8,
@@ -479,7 +490,7 @@ export const games = [
         tempo: "1h 11m",
         versao: "PC",
         cover: "https://images.igdb.com/igdb/image/upload/t_cover_big/co5i86.webp",
-        review: "https://steamcommunity.com/id/maahlune/recommended/1696960/",
+        review: "Uma linda homenagem aos jogos retrô, como Silent Hill e Resident Evil. Muito bom de verdade, com puzzles divertidos e uma estética que nem preciso mencionar... muito bem feita, realmente parece um jogo antigo. O criador está de parabéns, espero que lance mais jogos. Muito bom mesmo, recomendo!",
     },
     {
         nota: 7,
@@ -516,7 +527,7 @@ export const games = [
         tempo: "0h 30m",
         versao: "PC",
         cover: "https://images.igdb.com/igdb/image/upload/t_cover_big/co99t4.webp",
-        review: "https://steamcommunity.com/id/maahlune/recommended/3205080/",
+        review: "Jogo muito bom! Bem curto, mas consistente. A história é bem interessante, e os gráficos, junto com o filtro, combinaram bastante, dando a impressão de que estamos jogando um 'vídeo antigo' ou algo do gênero. Gostei muito!\n\nJá tinha jogado antes no Itch.io, e, quando vi que estava na Steam, comprei para apoiar. No aguardo de Bad Parenting 2!!!",
     },
     {
         nota: 8,
@@ -526,7 +537,7 @@ export const games = [
         tempo: "1h 06m",
         versao: "PC",
         cover: "https://images.igdb.com/igdb/image/upload/t_cover_big/co8qyb.webp",
-        review: "https://steamcommunity.com/id/maahlune/recommended/3037930/",
+        review: "Jogo insano de terror psicológico, que aborda tópicos pesados. Estética impecável e aterrorizante. Recomendo demais!\n\nNo entanto, para quem é sensível a certos temas, é importante considerar com cuidado antes de jogar.",
     },
     {
         nota: 8,
@@ -554,7 +565,7 @@ export const games = [
         tempo: "4h 50m",
         versao: "PC",
         cover: "https://images.igdb.com/igdb/image/upload/t_cover_big/co41d5.webp",
-        review: "https://steamcommunity.com/id/maahlune/recommended/251870/",
+        review: "Muito interessante! É realmente uma viagem pelo Japão.\n\nSão mostrados vários lugares históricos e aspectos do seu passado. Recomendo!\n\nUma vn bem divertida.",
     },
     {
         nota: 7,
@@ -636,7 +647,7 @@ export const games = [
         tempo: "1h 49m",
         versao: "PC",
         cover: "https://images.igdb.com/igdb/image/upload/t_cover_big/co9jva.webp",
-        review: "https://steamcommunity.com/id/maahlune/recommended/3400040/",
+        review: "Recomendo. Não espere nada extraordinário, é um jogo indie de terror, bem curtinho e simples, mas acho que pelo valor vale a pena. Para quem gosta de platinas, o jogo tem conquistas relativamente fáceis e é possível voltar nos capítulos jogados caso tenha deixado alguma conquista passar.",
     },
     {
         nota: 7,
@@ -646,7 +657,7 @@ export const games = [
         tempo: "7h 30m",
         versao: "PC",
         cover: "https://images.igdb.com/igdb/image/upload/t_cover_big/co1oew.webp",
-        review: "https://steamcommunity.com/id/maahlune/recommended/1045720/",
+        review: "Jogo bom!\n\nParecia que eu estava jogando um manhwa. A arte desse jogo é linda e me agradou bastante. O jogo tem alguns 'puzzles', mas nada muito complicado, sendo interessante para o público mais casual. Dito isso, também há partes que serão um pouco desafiadoras, mas nada muito extremo, na dosagem perfeita para todos se divertirem.\n\nComo alguém que não jogou o primeiro jogo, até que não fiquei perdido na história. Dá para entender bem o que está acontecendo e especular algumas coisas. Claro que, se você tiver jogado o primeiro jogo, com certeza terá um melhor entendimento e imersão, mas não é necessariamente obrigatório para conseguir desfrutá-lo.\n\nRecomendo.",
     },
     {
         nota: 7,
@@ -656,7 +667,7 @@ export const games = [
         tempo: "8h 11m",
         versao: "PC",
         cover: "https://images.igdb.com/igdb/image/upload/t_cover_big/co1m35.webp",
-        review: "https://steamcommunity.com/id/maahlune/recommended/383870/",
+        review: "Um bom jogo.\n\nNunca tinha visto nada sobre Firewatch, então joguei sem saber nada e foi muito bom. A narrativa é bem interessante e te deixa intrigado com os acontecimentos. Os gráficos do jogo são bem bonitos, com um estilo meio cartoonizado.\n\nVale muito a pena a experiência. Recomendo!",
     },
     {
         nota: 6,
@@ -675,7 +686,7 @@ export const games = [
         tempo: "1h 47m",
         versao: "PC",
         cover: "https://images.igdb.com/igdb/image/upload/t_cover_big/co9y1s.webp",
-        review: "https://steamcommunity.com/id/maahlune/recommended/3118010/",
+        review: "Muuuuuito bom! Fiquei até triste quando acabou, porque queria mais.\n\nQue jogo gostoso de jogar! Parece mesmo que a gente tá assistindo a um filme de thriller. Os personagens são bem legais, sem enrolação, pixel art lindíssima, trilha sonora combinou demais.\n\nInfelizmente não tem em português, mas não dá pra cobrar isso de um jogo indie. Muito bom mesmo, recomendo 10/10!",
     },
     {
         nota: 8,
@@ -685,7 +696,7 @@ export const games = [
         tempo: "1h 50m",
         versao: "PC",
         cover: "https://images.igdb.com/igdb/image/upload/t_cover_big/co9apq.webp",
-        review: "https://steamcommunity.com/id/maahlune/recommended/2873080/",
+        review: "Esse jogo brinca com todos os conceitos e clichês das vn, além de trazer algumas reflexões filosóficas interessantes.\n\nÉ tão barato que chega a ser estranho ter tanta qualidade. Vale muito a pena aproveitar essa história.",
     },
     {
         nota: 6,

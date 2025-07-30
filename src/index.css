@@ -4,3 +4,75 @@
 * {
     font-family: "Cabinet Grotesk", Arial, Helvetica, sans-serif;
 }
+
+/* Custom Scrollbar Styles */
+::-webkit-scrollbar {
+    width: 8px;
+}
+
+::-webkit-scrollbar-track {
+    background: #171717; /* neutral-900 */
+    border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #404040; /* neutral-700 */
+    border-radius: 4px;
+    transition: background-color 0.3s ease;
+    border: 1px solid #262626; /* subtle border */
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: #525252; /* neutral-600 */
+    border-color: #404040;
+}
+
+::-webkit-scrollbar-thumb:active {
+    background: #737373; /* neutral-500 */
+}
+
+/* Modal specific scrollbar */
+.modal-scroll::-webkit-scrollbar {
+    width: 6px;
+}
+
+.modal-scroll::-webkit-scrollbar-track {
+    background: #0a0a0a; /* neutral-950 */
+    border-radius: 3px;
+}
+
+.modal-scroll::-webkit-scrollbar-thumb {
+    background: #262626; /* neutral-800 */
+    border-radius: 3px;
+    transition: background-color 0.3s ease;
+    border: 1px solid #171717;
+}
+
+.modal-scroll::-webkit-scrollbar-thumb:hover {
+    background: #404040; /* neutral-700 */
+    border-color: #262626;
+}
+
+.modal-scroll::-webkit-scrollbar-thumb:active {
+    background: #525252; /* neutral-600 */
+}
+
+/* Firefox scrollbar */
+* {
+    scrollbar-width: thin;
+    scrollbar-color: #404040 #171717;
+}
+
+.modal-scroll {
+    scrollbar-width: thin;
+    scrollbar-color: #262626 #0a0a0a;
+}
+
+/* Smooth scrolling behavior */
+html {
+    scroll-behavior: smooth;
+}
+
+.modal-scroll {
+    scroll-behavior: smooth;
+}

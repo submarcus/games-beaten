@@ -1,3 +1,5 @@
+import { HiDocumentText } from "react-icons/hi";
+
 interface Game {
     nota: number;
     nome: string;
@@ -19,15 +21,12 @@ const GameCard = (game: Game) => {
     };
 
     return (
-        <a
-            href={game.review ? game.review : undefined}
-            target="_blank"
-            rel="noopener noreferrer"
+        <div
             className={`group rounded-lg border border-neutral-900 bg-neutral-950 p-3 shadow-inner shadow-neutral-800 transition-colors hover:border-neutral-800 ${
-                game.review ? "!cursor-pointer" : "cursor-default"
+                game.review ? "cursor-pointer" : "cursor-default"
             }`}
         >
-            <div className={`relative ${game.review ? "*:!cursor-pointer" : "cursor-default"}`}>
+            <div className="relative">
                 <img
                     className="w-full aspect-[258/352] object-cover rounded-lg transition-colors"
                     src={game.cover}
@@ -53,6 +52,13 @@ const GameCard = (game: Game) => {
                 <span className="absolute bottom-2 left-2 rounded-lg bg-black/80 px-2 py-1 text-xs text-white">
                     {game.versao}
                 </span>
+
+                {/* Indicador de Review */}
+                {game.review && (
+                    <span className="absolute bottom-2 right-2 w-6 h-6 flex items-center justify-center rounded-lg bg-black/80  text-white">
+                        <HiDocumentText />
+                    </span>
+                )}
             </div>
 
             <div className="mt-2 flex flex-col gap-1">
@@ -63,7 +69,7 @@ const GameCard = (game: Game) => {
                 {/* Gênero */}
                 <span className="w-fit text-xs text-neutral-300">{game.genero[0]}</span>
             </div>
-        </a>
+        </div>
     );
 };
 

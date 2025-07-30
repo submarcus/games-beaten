@@ -1,5 +1,6 @@
 import { useState, useMemo } from "react";
 import GameCard from "../GameCard/GameCard";
+import { IoMdClose } from "react-icons/io";
 
 interface Game {
     nota: number;
@@ -9,6 +10,7 @@ interface Game {
     tempo: string;
     versao: string;
     cover?: string;
+    review?: string;
 }
 
 interface HomeProps {
@@ -24,6 +26,7 @@ interface FilterState {
 
 const Home = ({ games }: HomeProps) => {
     const [isFilterOpen, setIsFilterOpen] = useState(false);
+    const [selectedGame, setSelectedGame] = useState<Game | null>(null);
     const [filters, setFilters] = useState<FilterState>({
         genero: "",
         nota: "",
@@ -115,6 +118,16 @@ const Home = ({ games }: HomeProps) => {
         });
     };
 
+    const openGameModal = (game: Game) => {
+        if (game.review) {
+            setSelectedGame(game);
+        }
+    };
+
+    const closeGameModal = () => {
+        setSelectedGame(null);
+    };
+
     const activeFiltersCount = Object.values(filters).filter((value) => value && value !== "data").length;
 
     return (
@@ -153,7 +166,7 @@ const Home = ({ games }: HomeProps) => {
 
                 {/* Filter Panel */}
                 <div
-                    className={`absolute right-0 top-14 w-80 rounded-lg border border-neutral-800 bg-neutral-950 p-4 shadow-xl transition-all duration-300 ${
+                    className={`absolute right-0 top-14 w-80 rounded-lg border border-neutral-800 bg-neutral-950 p-4 shadow-xl transition-all duration-300 modal-scroll ${
                         isFilterOpen ? "opacity-100 translate-y-0" : "opacity-0 -translate-y-4 pointer-events-none"
                     }`}
                 >
@@ -259,9 +272,100 @@ const Home = ({ games }: HomeProps) => {
 
             <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-6 gap-3">
                 {filteredAndSortedGames.map((game, index) => (
-                    <GameCard key={`${game.nome}-${index}`} {...game} />
+                    <div key={`${game.nome}-${index}`} onClick={() => openGameModal(game)}>
+                        <GameCard {...game} />
+                    </div>
                 ))}
             </div>
+
+            {/* Modal de Detalhes do Jogo */}
+            {selectedGame && (
+                <div
+                    className="fixed inset-0 z-50 flex items-center justify-center bg-black/80 backdrop-blur-sm"
+                    onClick={closeGameModal}
+                >
+                    <div
+                        className="relative max-w-4xl max-h-[90vh] w-full mx-4 bg-neutral-950 border border-neutral-800 rounded-xl shadow-2xl overflow-y-auto modal-scroll"
+                        onClick={(e) => e.stopPropagation()}
+                    >
+                        {/* Header do Modal */}
+                        <div className="sticky top-0 bg-neutral-950 border-b border-neutral-800 p-6 flex justify-between items-start">
+                            <div>
+                                <h2 className="text-2xl font-bold text-white mb-1">{selectedGame.nome}</h2>
+                                <div className="flex items-center gap-4 text-sm text-neutral-400">
+                                    <span>{selectedGame.data}</span>
+                                    <span>•</span>
+                                    <span>{selectedGame.tempo}</span>
+                                    <span>•</span>
+                                    <span>{selectedGame.versao}</span>
+                                    <span>•</span>
+                                    <span>{selectedGame.genero[0]}</span>
+                                </div>
+                            </div>
+                            <button
+                                onClick={closeGameModal}
+                                className="text-neutral-400 hover:text-white transition-colors p-1 cursor-pointer"
+                            >
+                                <IoMdClose className="w-6 h-6" />
+                            </button>
+                        </div>
+
+                        {/* Conteúdo do Modal */}
+                        <div className="p-6">
+                            <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
+                                {/* Capa do Jogo */}
+                                {selectedGame.cover && (
+                                    <div className="md:col-span-1 space-y-4">
+                                        <img
+                                            src={selectedGame.cover}
+                                            alt={selectedGame.nome}
+                                            className="w-full max-w-48 aspect-[258/352] object-cover rounded-lg mx-auto"
+                                        />
+                                    </div>
+                                )}
+
+                                {/* Review */}
+                                <div
+                                    className={`${
+                                        selectedGame.cover ? "md:col-span-2" : "md:col-span-3"
+                                    } flex flex-col gap-4`}
+                                >
+                                    {/* Nota */}
+                                    <div className="flex items-center gap-2">
+                                        <span className="text-neutral-300">Nota:</span>
+                                        <span
+                                            className={`text-xl font-bold ${
+                                                selectedGame.nota === 10
+                                                    ? "text-green-400"
+                                                    : selectedGame.nota === 9
+                                                    ? "text-lime-400"
+                                                    : selectedGame.nota === 8
+                                                    ? "text-green-500"
+                                                    : selectedGame.nota === 7
+                                                    ? "text-yellow-400"
+                                                    : "text-red-400"
+                                            }`}
+                                        >
+                                            {selectedGame.nota}/10
+                                        </span>
+                                    </div>
+
+                                    {selectedGame.review && (
+                                        <div>
+                                            <span className="text-neutral-300 block mb-2">Review:</span>
+                                            <div className="bg-neutral-900 border border-neutral-800 rounded-lg p-4">
+                                                <p className="text-neutral-200 leading-relaxed whitespace-pre-line">
+                                                    {selectedGame.review}
+                                                </p>
+                                            </div>
+                                        </div>
+                                    )}
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            )}
         </>
     );
 };
