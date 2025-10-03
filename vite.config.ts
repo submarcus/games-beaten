@@ -4,6 +4,6 @@ import tailwindcss from "@tailwindcss/vite";
 
 // https://vite.dev/config/
 export default defineConfig({
-    base: "/games-beaten",
-    plugins: [react(), tailwindcss()],
+   //  base: "/games-beaten",
+   plugins: [react(), tailwindcss()],
 });
