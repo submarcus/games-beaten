@@ -1,12 +1,5 @@
-interface Game {
-   nota: number;
-   nome: string;
-   data: string;
-   genero: string[];
-   tempo: string;
-   versao: string;
-   cover?: string;
-}
+import type { Game } from "../../types";
+import { calculateTotalHours } from "../../utils/gameUtils";
 
 interface HeaderProps {
    games: Game[];
@@ -14,11 +7,7 @@ interface HeaderProps {
 
 const Header = ({ games }: HeaderProps) => {
    const totalGames = games.length;
-
-   const totalHours = games.reduce((sum, game) => {
-      const match = game.tempo.match(/(\d+)h/);
-      return sum + (match ? parseInt(match[1]) : 0);
-   }, 0);
+   const totalHours = calculateTotalHours(games);
 
    return (
       <div className="bg-neutral-950  mb-10 cursor-default">

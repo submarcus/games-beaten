@@ -1,24 +1,8 @@
 import { HiDocumentText } from "react-icons/hi";
-
-interface Game {
-   nota: number;
-   nome: string;
-   data: string;
-   genero: string[];
-   tempo: string;
-   versao: string;
-   cover?: string;
-   review?: string;
-}
+import type { Game } from "../../types";
+import { getRatingColor } from "../../utils/gameUtils";
 
 const GameCard = (game: Game) => {
-   const getRatingColor = (rating: number) => {
-      if (rating == 10) return "text-green-400";
-      if (rating == 9) return "text-lime-400";
-      if (rating == 8) return "text-green-500";
-      if (rating == 7) return "text-yellow-400";
-      return "text-red-400";
-   };
 
    return (
       <div
