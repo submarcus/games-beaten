@@ -1,4 +1,3 @@
-import { HiDocumentText } from "react-icons/hi";
 import type { Game } from "../../types";
 import { getRatingColor } from "../../utils/gameUtils";
 
@@ -6,8 +5,7 @@ const GameCard = (game: Game) => {
 
    return (
       <div
-         className={`group  border border-neutral-900 bg-neutral-950 p-3  transition-colors hover:border-neutral-800 ${game.review ? "cursor-pointer" : "cursor-default"
-            }`}
+         className="group border border-neutral-900 bg-neutral-950 p-3 transition-colors hover:border-neutral-800"
       >
          <div className="relative">
             <img
@@ -24,7 +22,7 @@ const GameCard = (game: Game) => {
 
             {/* Nota do Jogo */}
             <span
-               className={`absolute right-1 top-1 w-6 h-6 flex items-center justify-center  bg-black text-sm font-bold ${getRatingColor(
+               className={`absolute right-1 top-1 w-6 h-6 flex items-center justify-center bg-black text-sm font-normal ${getRatingColor(
                   game.nota
                )}`}
             >
@@ -32,16 +30,9 @@ const GameCard = (game: Game) => {
             </span>
 
             {/* Versão do Jogo */}
-            <span className="absolute bottom-2 left-2  bg-black/80 px-2 py-1 text-xs text-white">
+            <span className="absolute bottom-2 left-2 bg-black/80 px-2 py-1 text-xs text-white">
                {game.versao}
             </span>
-
-            {/* Indicador de Review */}
-            {game.review && (
-               <span className="absolute bottom-2 right-2 w-6 h-6 flex items-center justify-center  bg-black/80  text-white">
-                  <HiDocumentText />
-               </span>
-            )}
          </div>
 
          <div className="mt-2 flex flex-col gap-1">

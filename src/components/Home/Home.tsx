@@ -1,11 +1,9 @@
 import { useState } from "react";
 import type { Game } from "../../types";
 import { useGameFilters } from "../../hooks/useGameFilters";
-import { useGameModal } from "../../hooks/useGameModal";
 import FilterButton from "../FilterButton/FilterButton";
 import FilterPanel from "../FilterPanel/FilterPanel";
 import GameGrid from "../GameGrid/GameGrid";
-import GameModal from "../GameModal/GameModal";
 
 interface HomeProps {
    games: Game[];
@@ -24,8 +22,6 @@ const Home = ({ games }: HomeProps) => {
       clearFilters,
       activeFiltersCount,
    } = useGameFilters(games);
-
-   const { selectedGame, openGameModal, closeGameModal } = useGameModal();
 
    const getSortDisplayText = () => {
       switch (filters.sortBy) {
@@ -78,10 +74,7 @@ const Home = ({ games }: HomeProps) => {
             {getSortDisplayText()}
          </div>
 
-         <GameGrid games={filteredAndSortedGames} onGameClick={openGameModal} />
-
-         {/* Modal de Detalhes do Jogo */}
-         {selectedGame && <GameModal game={selectedGame} onClose={closeGameModal} />}
+         <GameGrid games={filteredAndSortedGames} />
       </>
    );
 };
