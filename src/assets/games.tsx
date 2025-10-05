@@ -82,7 +82,7 @@ export const games = [
    },
    {
       nota: 10,
-      nome: "Silent Hill F",
+      nome: "Silent Hill f",
       data: "05/out/2025",
       genero: ["Terror", "Atmosférico"],
       tempo: "9h 41m",
