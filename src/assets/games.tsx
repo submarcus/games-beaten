@@ -83,7 +83,7 @@ export const games = [
    {
       nota: 10,
       nome: "Silent Hill f",
-      data: "05/out/2025",
+      data: "04/out/2025",
       genero: ["Terror", "Atmosférico"],
       tempo: "9h 41m",
       versao: "PC",
@@ -268,6 +268,15 @@ export const games = [
       tempo: "66h 30m",
       versao: "PS4",
       cover: "https://images.igdb.com/igdb/image/upload/t_cover_big/co2lbd.webp",
+   },
+   {
+      nota: 8,
+      nome: "No, I'm Not A Human",
+      data: "5/out/2025",
+      genero: ["Terror", "Atmosférico"],
+      tempo: "2h 21m",
+      versao: "PC",
+      cover: "https://images.igdb.com/igdb/image/upload/t_cover_big/coajvh.webp",
    },
    {
       nota: 8,
