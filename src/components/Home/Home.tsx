@@ -1,9 +1,11 @@
 import { useState } from "react";
 import type { Game } from "../../types";
 import { useGameFilters } from "../../hooks/useGameFilters";
+import { usePagination } from "../../hooks/usePagination";
 import FilterButton from "../FilterButton/FilterButton";
 import FilterPanel from "../FilterPanel/FilterPanel";
 import GameGrid from "../GameGrid/GameGrid";
+import Pagination from "../Pagination/Pagination";
 
 interface HomeProps {
    games: Game[];
@@ -22,6 +24,10 @@ const Home = ({ games }: HomeProps) => {
       clearFilters,
       activeFiltersCount,
    } = useGameFilters(games);
+
+   const [paginationData, paginationActions] = usePagination(filteredAndSortedGames, {
+      itemsPerPage: 24
+   });
 
    const getSortDisplayText = () => {
       switch (filters.sortBy) {
@@ -65,16 +71,19 @@ const Home = ({ games }: HomeProps) => {
             </div>
          </div>
 
-         <div className="text-neutral-200 text-xl text-center mb-1 hover:text-neutral-400">
-            <a href="https://coelhomarcus.com" target="_blank" rel="noopener noreferrer">
-               Marcus
-            </a>
+         <div className="text-neutral-200 text-xl text-center mb-1 cursor-default">
+            Marcus
          </div>
-         <div className="text-neutral-400 text-sm text-center mb-4">
+         <div className="text-neutral-400 text-sm text-center mb-4 cursor-default">
             {getSortDisplayText()}
          </div>
 
-         <GameGrid games={filteredAndSortedGames} />
+         <GameGrid games={paginationData.paginatedItems} />
+
+         <Pagination
+            paginationData={paginationData}
+            paginationActions={paginationActions}
+         />
       </>
    );
 };

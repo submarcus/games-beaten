@@ -15,14 +15,14 @@ const GameCard = (game: Game) => {
             />
 
             {/* Sobreposição */}
-            <div className="absolute inset-0 flex flex-col items-center justify-center  bg-black/70 text-white opacity-0 transition-opacity duration-300 group-hover:opacity-100">
+            <div className="absolute inset-0 flex flex-col items-center justify-center  bg-black/70 text-white opacity-0 transition-opacity duration-300 group-hover:opacity-100 *:cursor-default">
                <span className="text-md font-medium">{game.data}</span>
                <span className="text-sm text-neutral-300">{game.tempo}</span>
             </div>
 
             {/* Nota do Jogo */}
             <span
-               className={`absolute right-1 top-1 w-6 h-6 flex items-center justify-center bg-black text-sm font-normal ${getRatingColor(
+               className={`cursor-default absolute right-1 top-1 w-6 h-6 flex items-center justify-center bg-black text-sm font-normal ${getRatingColor(
                   game.nota
                )}`}
             >
@@ -30,12 +30,12 @@ const GameCard = (game: Game) => {
             </span>
 
             {/* Versão do Jogo */}
-            <span className="absolute bottom-2 left-2 bg-black/80 px-2 py-1 text-xs text-white">
+            <span className="cursor-default absolute bottom-2 left-2 bg-black/80 px-2 py-1 text-xs text-white">
                {game.versao}
             </span>
          </div>
 
-         <div className="mt-2 flex flex-col gap-1">
+         <div className="mt-2 flex flex-col gap-1 *:cursor-default">
             <h3 className="truncate text-sm font-medium text-white" title={game.nome}>
                {game.nome}
             </h3>
@@ -43,7 +43,7 @@ const GameCard = (game: Game) => {
             {/* Gênero */}
             <span className="w-fit text-xs text-neutral-300">{game.genero[0]}</span>
          </div>
-      </div>
+      </div >
    );
 };
 

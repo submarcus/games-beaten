@@ -5,3 +5,5 @@ export { default as Layout } from "./Layout/Layout";
 export { default as FilterButton } from "./FilterButton/FilterButton";
 export { default as FilterPanel } from "./FilterPanel/FilterPanel";
 export { default as GameGrid } from "./GameGrid/GameGrid";
+export { default as Pagination } from "./Pagination/Pagination";
+export { default as SearchBar } from "./SearchBar/SearchBar";

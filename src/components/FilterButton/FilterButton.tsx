@@ -8,7 +8,7 @@ const FilterButton = ({ isOpen, activeFiltersCount, onClick }: FilterButtonProps
    return (
       <button
          onClick={onClick}
-         className="group relative flex h-12 w-12 items-center justify-center border border-neutral-800 transition-all duration-300 hover:bg-neutral-800 cursor-pointer"
+         className="group relative flex h-12 w-12 bg-black items-center justify-center border border-neutral-800 transition-all duration-300 hover:bg-neutral-800 cursor-pointer"
       >
          <div className="relative h-5 w-5">
             <div

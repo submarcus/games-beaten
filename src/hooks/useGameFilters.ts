@@ -8,6 +8,7 @@ export const useGameFilters = (games: Game[]) => {
       nota: "",
       versao: "",
       sortBy: "data",
+      search: "",
    });
 
    // Get unique values for filter options
@@ -35,8 +36,9 @@ export const useGameFilters = (games: Game[]) => {
          const matchesGenre = !filters.genero || game.genero.includes(filters.genero);
          const matchesRating = !filters.nota || game.nota.toString() === filters.nota;
          const matchesVersion = !filters.versao || game.versao === filters.versao;
+         const matchesSearch = !filters.search || game.nome.toLowerCase().includes(filters.search.toLowerCase());
 
-         return matchesGenre && matchesRating && matchesVersion;
+         return matchesGenre && matchesRating && matchesVersion && matchesSearch;
       });
 
       // Sort games
@@ -69,11 +71,12 @@ export const useGameFilters = (games: Game[]) => {
          nota: "",
          versao: "",
          sortBy: "data",
+         search: "",
       });
    };
 
-   const activeFiltersCount = Object.values(filters).filter(
-      (value) => value && value !== "data"
+   const activeFiltersCount = Object.entries(filters).filter(
+      ([key, value]) => value && key !== "sortBy"
    ).length;
 
    return {

@@ -14,6 +14,7 @@ export interface FilterState {
    nota: string;
    versao: string;
    sortBy: string;
+   search: string;
 }
 
 export type SortType = "data" | "nome" | "nota";

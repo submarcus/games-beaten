@@ -1,4 +1,5 @@
 import type { FilterState } from "../../types";
+import SearchBar from "../SearchBar/SearchBar";
 
 interface FilterPanelProps {
    filters: FilterState;
@@ -38,6 +39,13 @@ const FilterPanel = ({
          </div>
 
          <div className="space-y-4">
+            {/* Search Bar */}
+            <SearchBar
+               searchTerm={filters.search}
+               onSearchChange={(value) => onFilterChange("search", value)}
+               placeholder="Buscar por nome..."
+            />
+
             {/* Genre Filter */}
             <div>
                <label className="block text-sm font-medium text-neutral-300 mb-2">
