@@ -1,0 +1,51 @@
+export const wishlist = [
+   {
+      nome: "Silent Hill",
+      genero: ["Terror"],
+      tempo: "7h",
+      versao: "PS1",
+      cover: "https://images.igdb.com/igdb/image/upload/t_cover_big/co2vye.webp",
+   },
+   {
+      nome: "Silent Hill 4: The Room",
+      genero: ["Terror"],
+      tempo: "10h",
+      versao: "PS2",
+      cover: "https://images.igdb.com/igdb/image/upload/t_cover_big/co2vyk.webp",
+   },
+   {
+      nome: "Silent Hill: Origins",
+      genero: ["Terror"],
+      tempo: "8h",
+      versao: "PS2",
+      cover: "https://images.igdb.com/igdb/image/upload/t_cover_big/co2vyq.webp",
+   },
+   {
+      nome: "Silent Hill: Shattered Memories",
+      genero: ["Terror"],
+      tempo: "7h",
+      versao: "PS2",
+      cover: "https://images.igdb.com/igdb/image/upload/t_cover_big/co2vyp.webp",
+   },
+   {
+      nome: "Calling",
+      genero: ["Terror"],
+      tempo: "10h",
+      versao: "Wii",
+      cover: "https://images.igdb.com/igdb/image/upload/t_cover_big/co2wg7.webp",
+   },
+   {
+      nome: "Your Turn to Die",
+      genero: ["Visual Novel", "Terror"],
+      tempo: "20h",
+      versao: "PC",
+      cover: "https://images.igdb.com/igdb/image/upload/t_cover_big/co65s3.webp",
+   },
+   {
+      nome: "Saya no Uta",
+      genero: ["Visual Novel", "Terror", "Romance"],
+      tempo: "4h",
+      versao: "PC",
+      cover: "https://images.igdb.com/igdb/image/upload/t_cover_big/co25zj.webp",
+   },
+]

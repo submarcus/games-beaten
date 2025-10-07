@@ -9,9 +9,24 @@ export interface Game {
    review?: string;
 }
 
+export interface WishlistGame {
+   nome: string;
+   genero: string[];
+   tempo: string;
+   versao: string;
+   cover?: string;
+}
+
 export interface FilterState {
    genero: string;
    nota: string;
+   versao: string;
+   sortBy: string;
+   search: string;
+}
+
+export interface WishlistFilterState {
+   genero: string;
    versao: string;
    sortBy: string;
    search: string;

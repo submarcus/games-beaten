@@ -7,3 +7,6 @@ export { default as FilterPanel } from "./FilterPanel/FilterPanel";
 export { default as GameGrid } from "./GameGrid/GameGrid";
 export { default as Pagination } from "./Pagination/Pagination";
 export { default as SearchBar } from "./SearchBar/SearchBar";
+export { default as Wishlist } from "./Wishlist/Wishlist";
+export { default as WishlistCard } from "./WishlistCard/WishlistCard";
+export { default as WishlistFilterPanel } from "./WishlistFilterPanel/WishlistFilterPanel";
