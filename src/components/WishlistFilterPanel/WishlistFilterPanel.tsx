@@ -1,6 +1,5 @@
 import type { WishlistFilterState } from "../../types";
 import SearchBar from "../SearchBar/SearchBar";
-import { Link } from "react-router";
 
 interface WishlistFilterPanelProps {
    filters: WishlistFilterState;
@@ -101,12 +100,12 @@ const WishlistFilterPanel = ({
 
          {/* Navigation Button */}
          <div className="mt-6 pt-4 border-t border-neutral-700">
-            <Link
-               to="/"
+            <a
+               href="/"
                className="w-full border border-neutral-700 bg-neutral-900 hover:bg-neutral-800 text-neutral-300 hover:text-white font-medium py-2 px-4 transition-colors duration-200 flex items-center justify-center mb-3"
             >
                Jogos Zerados
-            </Link>
+            </a>
 
             <div className="text-sm text-neutral-400">
                Mostrando {filteredCount} de {totalGames} jogos
