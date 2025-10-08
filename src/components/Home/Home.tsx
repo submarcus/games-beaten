@@ -25,9 +25,7 @@ const Home = ({ games }: HomeProps) => {
       activeFiltersCount,
    } = useGameFilters(games);
 
-   const [paginationData, paginationActions] = usePagination(filteredAndSortedGames, {
-      itemsPerPage: 24
-   });
+   const [paginationData, paginationActions] = usePagination(filteredAndSortedGames);
 
    const getSortDisplayText = () => {
       switch (filters.sortBy) {

@@ -30,7 +30,7 @@ export function usePagination<T>(
    items: T[],
    options: UsePaginationOptions = {}
 ): [PaginationData<T>, PaginationActions] {
-   const { initialPage = 1, itemsPerPage: initialItemsPerPage = 24 } = options;
+   const { initialPage = 1, itemsPerPage: initialItemsPerPage = 36 } = options;
 
    const [currentPage, setCurrentPage] = useState(initialPage);
    const [itemsPerPage, setItemsPerPageState] = useState(initialItemsPerPage);
@@ -39,7 +39,6 @@ export function usePagination<T>(
       const totalItems = items.length;
       const totalPages = Math.ceil(totalItems / itemsPerPage);
 
-      // Garantir que a página atual seja válida
       const validCurrentPage = Math.min(Math.max(1, currentPage), totalPages || 1);
 
       const startIndex = (validCurrentPage - 1) * itemsPerPage;
@@ -54,44 +53,60 @@ export function usePagination<T>(
          paginatedItems,
          hasNextPage: validCurrentPage < totalPages,
          hasPreviousPage: validCurrentPage > 1,
-         startIndex: startIndex + 1, // +1 para exibição humana (1-based)
+         startIndex: startIndex + 1,
          endIndex,
       };
    }, [items, currentPage, itemsPerPage]);
 
+   const scrollToTop = () => {
+      window.scrollTo({ top: 0, behavior: 'smooth' });
+   };
+
    const actions = useMemo<PaginationActions>(() => ({
       goToPage: (page: number) => {
          const validPage = Math.min(Math.max(1, page), paginationData.totalPages || 1);
-         setCurrentPage(validPage);
+         if (validPage !== paginationData.currentPage) {
+            setCurrentPage(validPage);
+            scrollToTop();
+         }
       },
 
       goToNextPage: () => {
          if (paginationData.hasNextPage) {
             setCurrentPage(prev => prev + 1);
+            scrollToTop();
          }
       },
 
       goToPreviousPage: () => {
          if (paginationData.hasPreviousPage) {
             setCurrentPage(prev => prev - 1);
+            scrollToTop();
          }
       },
 
       goToFirstPage: () => {
-         setCurrentPage(1);
+         if (paginationData.currentPage !== 1) {
+            setCurrentPage(1);
+            scrollToTop();
+         }
       },
 
       goToLastPage: () => {
-         setCurrentPage(paginationData.totalPages || 1);
+         const lastPage = paginationData.totalPages || 1;
+         if (paginationData.currentPage !== lastPage) {
+            setCurrentPage(lastPage);
+            scrollToTop();
+         }
       },
 
       setItemsPerPage: (items: number) => {
          setItemsPerPageState(items);
-         setCurrentPage(1); // Reset para primeira página ao mudar itens por página
+         setCurrentPage(1);
+         scrollToTop();
       },
-   }), [paginationData.hasNextPage, paginationData.hasPreviousPage, paginationData.totalPages]);
+   }), [paginationData.hasNextPage, paginationData.hasPreviousPage, paginationData.totalPages, paginationData.currentPage]);
 
-   // Ajustar página atual se ela for inválida após mudanças nos items
    useMemo(() => {
       if (paginationData.totalPages > 0 && currentPage > paginationData.totalPages) {
          setCurrentPage(paginationData.totalPages);

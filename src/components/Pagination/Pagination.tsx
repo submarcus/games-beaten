@@ -67,14 +67,14 @@ const Pagination = <T,>({
             </button>
 
             {/* Números das páginas */}
-            <div className="flex items-center gap-1">
+            <div className="flex items-center gap-1 sm:gap-2">
                {visiblePages.map((page) => (
                   <button
                      key={page}
                      onClick={() => goToPage(page)}
                      className={`flex h-8 w-8 sm:h-9 sm:w-9 items-center justify-center border text-xs sm:text-sm transition-all duration-300 ${page === currentPage
-                           ? 'border-blue-500 bg-blue-600 text-white hover:border-blue-400 hover:bg-blue-500'
-                           : 'border-neutral-800 bg-neutral-950 text-neutral-300 hover:border-neutral-700 hover:bg-neutral-900'
+                        ? 'border-blue-500 bg-blue-600 text-white hover:border-blue-400 hover:bg-blue-500'
+                        : 'border-neutral-800 bg-neutral-950 text-neutral-300 hover:border-neutral-700 hover:bg-neutral-900'
                         }`}
                   >
                      {page}
