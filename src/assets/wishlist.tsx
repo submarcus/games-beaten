@@ -42,13 +42,6 @@ export const wishlist = [
       cover: "https://images.igdb.com/igdb/image/upload/t_cover_big/co65s3.webp",
    },
    {
-      nome: "Saya no Uta",
-      genero: ["Visual Novel", "Horror", "Romance"],
-      tempo: "4h",
-      versao: "PC",
-      cover: "https://images.igdb.com/igdb/image/upload/t_cover_big/co25zj.webp",
-   },
-   {
       nome: "AI Limit",
       genero: ["Souslike"],
       tempo: "18h",

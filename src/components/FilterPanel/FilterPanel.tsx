@@ -7,6 +7,7 @@ interface FilterPanelProps {
    uniqueGenres: string[];
    uniqueVersions: string[];
    uniqueRatings: number[];
+   uniqueYears: number[];
    activeFiltersCount: number;
    totalGames: number;
    filteredCount: number;
@@ -19,6 +20,7 @@ const FilterPanel = ({
    uniqueGenres,
    uniqueVersions,
    uniqueRatings,
+   uniqueYears,
    activeFiltersCount,
    totalGames,
    filteredCount,
@@ -80,6 +82,25 @@ const FilterPanel = ({
                   {uniqueRatings.map((rating) => (
                      <option key={rating} value={rating.toString()}>
                         {rating}
+                     </option>
+                  ))}
+               </select>
+            </div>
+
+            {/* Year Filter */}
+            <div>
+               <label className="block text-sm font-medium text-neutral-300 mb-2">
+                  Ano
+               </label>
+               <select
+                  value={filters.ano}
+                  onChange={(e) => onFilterChange("ano", e.target.value)}
+                  className="w-full border border-neutral-800 bg-neutral-900 px-3 py-2 text-white focus:border-blue-500 focus:outline-none transition-colors"
+               >
+                  <option value="">Todos os anos</option>
+                  {uniqueYears.map((year) => (
+                     <option key={year} value={year.toString()}>
+                        {year}
                      </option>
                   ))}
                </select>

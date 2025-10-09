@@ -20,6 +20,7 @@ const Home = ({ games }: HomeProps) => {
       uniqueGenres,
       uniqueVersions,
       uniqueRatings,
+      uniqueYears,
       handleFilterChange,
       clearFilters,
       activeFiltersCount,
@@ -60,6 +61,7 @@ const Home = ({ games }: HomeProps) => {
                   uniqueGenres={uniqueGenres}
                   uniqueVersions={uniqueVersions}
                   uniqueRatings={uniqueRatings}
+                  uniqueYears={uniqueYears}
                   activeFiltersCount={activeFiltersCount}
                   totalGames={games.length}
                   filteredCount={filteredAndSortedGames.length}

@@ -2,7 +2,7 @@ export const games = [
    {
       nota: 10,
       nome: "Cyberpunk 2077",
-      data: "19/mai/2024",
+      data: "19/05/2024",
       genero: ["RPG", "Cyberpunk"],
       tempo: "169h 41m",
       versao: "PC",
@@ -11,7 +11,7 @@ export const games = [
    {
       nota: 10,
       nome: "Elden Ring",
-      data: "27/jun/2024",
+      data: "27/06/2024",
       genero: ["Soulslike", "RPG"],
       tempo: "426h 41m",
       versao: "PC",
@@ -20,7 +20,7 @@ export const games = [
    {
       nota: 10,
       nome: "Dark Souls III",
-      data: "11/ago/2024",
+      data: "11/08/2024",
       genero: ["Soulslike"],
       tempo: "37h 53m",
       versao: "PC",
@@ -29,7 +29,7 @@ export const games = [
    {
       nota: 10,
       nome: "Silent Hill 2",
-      data: "08/abr/2024",
+      data: "08/04/2024",
       genero: ["Horror", "Atmosférico"],
       tempo: "8h 18m",
       versao: "PS2",
@@ -38,7 +38,7 @@ export const games = [
    {
       nota: 10,
       nome: "Silent Hill f",
-      data: "04/out/2025",
+      data: "04/10/2025",
       genero: ["Horror", "Atmosférico"],
       tempo: "9h 41m",
       versao: "PC",
@@ -47,7 +47,7 @@ export const games = [
    {
       nota: 10,
       nome: "Silent Hill 3",
-      data: "23/abr/2024",
+      data: "23/04/2024",
       genero: ["Horror"],
       tempo: "14h 05m",
       versao: "PS2",
@@ -56,7 +56,7 @@ export const games = [
    {
       nota: 9,
       nome: "Elden Ring Nightreign",
-      data: "27/jun/2024",
+      data: "27/06/2024",
       genero: ["Soulslike", "Co-op"],
       tempo: "42h 30m",
       versao: "PC",
@@ -65,7 +65,7 @@ export const games = [
    {
       nota: 9,
       nome: "Shadow of Memories",
-      data: "19/jan/2025",
+      data: "19/01/2025",
       genero: ["Atmosférico"],
       tempo: "7h 00m",
       versao: "PS2",
@@ -74,7 +74,7 @@ export const games = [
    {
       nota: 9,
       nome: "Wuthering Waves",
-      data: "24/mai/2025",
+      data: "24/05/2025",
       genero: ["Gacha", "Aventura", "RPG", "Exploração"],
       tempo: "74h 00m",
       versao: "PC",
@@ -83,7 +83,7 @@ export const games = [
    {
       nota: 10,
       nome: "The Last of Us Remastered",
-      data: "10/nov/2018",
+      data: "10/11/2018",
       genero: ["Survival Horror", "Exploração", "Aventura"],
       tempo: "137h 24m",
       versao: "PS4",
@@ -92,7 +92,7 @@ export const games = [
    {
       nota: 10,
       nome: "The Last of Us Part II",
-      data: "21/jun/2020",
+      data: "21/06/2020",
       genero: ["Survival Horror", "Exploração", "Aventura"],
       tempo: "96h 30m",
       versao: "PS4",
@@ -101,7 +101,7 @@ export const games = [
    {
       nota: 10,
       nome: "Death Stranding Director's Cut",
-      data: "06/jul/2025",
+      data: "06/07/2025",
       genero: ["Aventura", "Exploração", "Horror"],
       tempo: "35h 30m",
       versao: "PC",
@@ -110,7 +110,7 @@ export const games = [
    {
       nota: 9,
       nome: "Resident Evil 7: Biohazard",
-      data: "22/dez/2018",
+      data: "22/12/2018",
       genero: ["Horror"],
       tempo: "25h 53m",
       versao: "PS4",
@@ -119,7 +119,7 @@ export const games = [
    {
       nota: 9,
       nome: "Clair Obscur: Expedition 33",
-      data: "07/ago/2025",
+      data: "07/08/2025",
       genero: ["RPG", "Turno"],
       tempo: "20h 18m",
       versao: "PC",
@@ -128,7 +128,7 @@ export const games = [
    {
       nota: 9,
       nome: "Katana Zero",
-      data: "28/jun/2022",
+      data: "28/06/2022",
       genero: ["Plataforma", "Cyberpunk"],
       tempo: "5h 54m",
       versao: "PC",
@@ -137,7 +137,7 @@ export const games = [
    {
       nota: 9,
       nome: "Stray",
-      data: "21/jul/2022",
+      data: "21/07/2022",
       genero: ["Atmosférico", "Cyberpunk"],
       tempo: "6h 24m",
       versao: "PC",
@@ -146,7 +146,7 @@ export const games = [
    {
       nota: 9,
       nome: "Milk inside a bag of milk inside a bag of milk",
-      data: "27/jan/2023",
+      data: "27/01/2023",
       genero: ["Visual Novel", "Horror"],
       tempo: "0h 18m",
       versao: "PC",
@@ -155,7 +155,7 @@ export const games = [
    {
       nota: 9,
       nome: "Milk outside a bag of milk outside a bag of milk",
-      data: "28/jan/2023",
+      data: "28/01/2023",
       genero: ["Visual Novel", "Horror"],
       tempo: "3h 36m",
       versao: "PC",
@@ -164,7 +164,7 @@ export const games = [
    {
       nota: 9,
       nome: "Doki Doki Literature Club",
-      data: "31/jan/2023",
+      data: "31/01/2023",
       genero: ["Visual Novel", "Horror"],
       tempo: "5h 42m",
       versao: "PC",
@@ -173,7 +173,7 @@ export const games = [
    {
       nota: 9,
       nome: "Resident Evil 4",
-      data: "05/abr/2023",
+      data: "05/04/2023",
       genero: ["Survival Horror", "Horror"],
       tempo: "21h 18m",
       versao: "PC",
@@ -182,7 +182,7 @@ export const games = [
    {
       nota: 9,
       nome: "Resident Evil 4 (2023)",
-      data: "08/abr/2023",
+      data: "08/04/2023",
       genero: ["Survival Horror", "Horror"],
       tempo: "75h 05m",
       versao: "PC",
@@ -191,7 +191,7 @@ export const games = [
    {
       nota: 9,
       nome: "Onimusha: Warlords",
-      data: "09/mar/2024",
+      data: "09/03/2024",
       genero: ["Hack and Slash"],
       tempo: "6h 47m",
       versao: "PC",
@@ -200,7 +200,7 @@ export const games = [
    {
       nota: 9,
       nome: "Heavy Rain",
-      data: "08/jan/2025",
+      data: "08/01/2025",
       genero: ["Filme Interativo", "Horror"],
       tempo: "10h 41m",
       versao: "PC",
@@ -209,7 +209,7 @@ export const games = [
    {
       nota: 8,
       nome: "Grand Theft Auto V",
-      data: "21/dez/2018",
+      data: "21/12/2018",
       genero: ["Mundo Aberto"],
       tempo: "66h 30m",
       versao: "PS4",
@@ -218,7 +218,7 @@ export const games = [
    {
       nota: 8,
       nome: "No, I'm Not A Human",
-      data: "5/out/2025",
+      data: "5/10/2025",
       genero: ["Horror", "Atmosférico"],
       tempo: "2h 21m",
       versao: "PC",
@@ -227,7 +227,7 @@ export const games = [
    {
       nota: 8,
       nome: "ABZÛ",
-      data: "20/jul/2025",
+      data: "20/07/2025",
       genero: ["Aventura", "Exploração"],
       tempo: "1h 30m",
       versao: "PC",
@@ -236,7 +236,7 @@ export const games = [
    {
       nota: 8,
       nome: "Crash Bandicoot",
-      data: "16/jul/2025",
+      data: "16/07/2025",
       genero: ["Plataforma"],
       tempo: "4h 0m",
       versao: "PS1",
@@ -245,7 +245,7 @@ export const games = [
    {
       nota: 8,
       nome: "Crash Bandicoot 2: Cortex Strikes Back",
-      data: "17/jul/2025",
+      data: "17/07/2025",
       genero: ["Plataforma"],
       tempo: "3h 0m",
       versao: "PS1",
@@ -254,7 +254,7 @@ export const games = [
    {
       nota: 7,
       nome: "Crash Bandicoot 3: Warped",
-      data: "18/jul/2025",
+      data: "18/07/2025",
       genero: ["Plataforma"],
       tempo: "3h 0m",
       versao: "PS1",
@@ -263,7 +263,7 @@ export const games = [
    {
       nota: 8,
       nome: "Until Dawn",
-      data: "23/dez/2018",
+      data: "23/12/2018",
       genero: ["Filme Interativo", "Horror"],
       tempo: "8h 54m",
       versao: "PS4",
@@ -272,7 +272,7 @@ export const games = [
    {
       nota: 8,
       nome: "Uncharted 4: A Thief's End",
-      data: "27/abr/2019",
+      data: "27/04/2019",
       genero: ["Exploração", "Aventura"],
       tempo: "24h 41m",
       versao: "PS4",
@@ -281,7 +281,7 @@ export const games = [
    {
       nota: 8,
       nome: "Naruto Shippuden: Ultimate Ninja Storm 3",
-      data: "06/mai/2019",
+      data: "06/05/2019",
       genero: ["Luta"],
       tempo: "17h 53m",
       versao: "PS4",
@@ -290,7 +290,7 @@ export const games = [
    {
       nota: 8,
       nome: "Naruto Shippuden: Ultimate Ninja Storm 4",
-      data: "12/mai/2019",
+      data: "12/05/2019",
       genero: ["Luta"],
       tempo: "38h 42m",
       versao: "PS4",
@@ -299,7 +299,7 @@ export const games = [
    {
       nota: 8,
       nome: "God of War",
-      data: "23/jul/2019",
+      data: "23/07/2019",
       genero: ["Aventura", "Exploração"],
       tempo: "34h 30m",
       versao: "PS4",
@@ -308,7 +308,7 @@ export const games = [
    {
       nota: 9,
       nome: "Katawa Shoujo",
-      data: "08/jun/2025",
+      data: "08/06/2025",
       genero: ["Visual Novel"],
       tempo: "11h 30m",
       versao: "PC",
@@ -317,7 +317,7 @@ export const games = [
    {
       nota: 9,
       nome: "planetarian HD",
-      data: "21/jun/2025",
+      data: "21/06/2025",
       genero: ["Visual Novel"],
       tempo: "3h 50m",
       versao: "PC",
@@ -326,7 +326,7 @@ export const games = [
    {
       nota: 8,
       nome: "Resident Evil Village",
-      data: "09/jun/2022",
+      data: "09/06/2022",
       genero: ["Survival Horror", "Horror"],
       tempo: "12h 41m",
       versao: "PC",
@@ -335,7 +335,7 @@ export const games = [
    {
       nota: 8,
       nome: "Detroit: Become Human",
-      data: "15/jun/2022",
+      data: "15/06/2022",
       genero: ["Filme Interativo"],
       tempo: "14h 18m",
       versao: "PC",
@@ -344,7 +344,7 @@ export const games = [
    {
       nota: 8,
       nome: "A Space for the Unbound",
-      data: "20/jan/2023",
+      data: "20/01/2023",
       genero: ["Atmosférico"],
       tempo: "11h 11m",
       versao: "PC",
@@ -353,7 +353,7 @@ export const games = [
    {
       nota: 8,
       nome: "REFLEXIA Prototype ver.",
-      data: "30/jan/2023",
+      data: "30/01/2023",
       genero: ["Visual Novel"],
       tempo: "1h 11m",
       versao: "PC",
@@ -362,7 +362,7 @@ export const games = [
    {
       nota: 8,
       nome: "The Forest",
-      data: "08/fev/2023",
+      data: "08/02/2023",
       genero: ["Survival Horror", "Co-op", "Exploração"],
       tempo: "12h 54m",
       versao: "PC",
@@ -371,7 +371,7 @@ export const games = [
    {
       nota: 8,
       nome: "Undertale",
-      data: "11/fev/2023",
+      data: "11/02/2023",
       genero: ["RPG"],
       tempo: "11h 24m",
       versao: "PC",
@@ -380,7 +380,7 @@ export const games = [
    {
       nota: 8,
       nome: "Lucy: The Eternity She Wished For",
-      data: "12/fev/2023",
+      data: "12/02/2023",
       genero: ["Visual Novel"],
       tempo: "6h 12m",
       versao: "PC",
@@ -389,7 +389,7 @@ export const games = [
    {
       nota: 8,
       nome: "Little Nightmares",
-      data: "14/fev/2023",
+      data: "14/02/2023",
       genero: ["Horror"],
       tempo: "7h 42m",
       versao: "PC",
@@ -398,7 +398,7 @@ export const games = [
    {
       nota: 9,
       nome: "Little Nightmares II",
-      data: "27/jul/2025",
+      data: "27/07/2025",
       genero: ["Horror"],
       tempo: "5h 50m",
       versao: "PC",
@@ -407,7 +407,7 @@ export const games = [
    {
       nota: 8,
       nome: "Sons Of The Forest",
-      data: "27/fev/2023",
+      data: "27/02/2023",
       genero: ["Survival Horror", "Horror", "Co-op", "Exploração"],
       tempo: "18h 41m",
       versao: "PC",
@@ -416,7 +416,7 @@ export const games = [
    {
       nota: 7,
       nome: "Selene ~Apoptosis~",
-      data: "29/mar/2023",
+      data: "29/03/2023",
       genero: ["Visual Novel"],
       tempo: "2h 47m",
       versao: "PC",
@@ -425,7 +425,7 @@ export const games = [
    {
       nota: 8,
       nome: "Resident Evil 2 (2019)",
-      data: "09/abr/2023",
+      data: "09/04/2023",
       genero: ["Survival Horror", "Horror"],
       tempo: "9h 35m",
       versao: "PC",
@@ -434,7 +434,7 @@ export const games = [
    {
       nota: 7,
       nome: "Threshold",
-      data: "26/jun/2025",
+      data: "26/06/2025",
       genero: ["Horror"],
       tempo: "1h 25m",
       versao: "PC",
@@ -443,7 +443,7 @@ export const games = [
    {
       nota: 8,
       nome: "Buckshot Roulette",
-      data: "08/abr/2024",
+      data: "08/04/2024",
       genero: ["Horror"],
       tempo: "9h 05m",
       versao: "PC",
@@ -452,7 +452,7 @@ export const games = [
    {
       nota: 8,
       nome: "Bayonetta",
-      data: "07/mai/2024",
+      data: "07/05/2024",
       genero: ["Hack and Slash"],
       tempo: "13h 35m",
       versao: "PC",
@@ -461,7 +461,7 @@ export const games = [
    {
       nota: 8,
       nome: "Psychopomp",
-      data: "01/jun/2024",
+      data: "01/06/2024",
       genero: ["Horror"],
       tempo: "1h 23m",
       versao: "PC",
@@ -470,7 +470,7 @@ export const games = [
    {
       nota: 8,
       nome: "Control",
-      data: "03/jun/2024",
+      data: "03/06/2024",
       genero: ["Horror"],
       tempo: "13h 35m",
       versao: "PC",
@@ -479,7 +479,7 @@ export const games = [
    {
       nota: 8,
       nome: "Devil May Cry HD Collection",
-      data: "09/jun/2024",
+      data: "09/06/2024",
       genero: ["Hack and Slash"],
       tempo: "28h 00m",
       versao: "PC",
@@ -488,7 +488,7 @@ export const games = [
    {
       nota: 8,
       nome: "Life is Strange",
-      data: "22/jun/2024",
+      data: "22/06/2024",
       genero: ["Filme Interativo"],
       tempo: "20h 23m",
       versao: "PC",
@@ -497,7 +497,7 @@ export const games = [
    {
       nota: 8,
       nome: "Lake Haven - Chrysalis",
-      data: "15/out/2024",
+      data: "15/10/2024",
       genero: ["Horror"],
       tempo: "1h 11m",
       versao: "PC",
@@ -506,7 +506,7 @@ export const games = [
    {
       nota: 7,
       nome: "Coralina",
-      data: "23/fev/2023",
+      data: "23/02/2023",
       genero: ["RPG", "Brasileiro"],
       tempo: "1h 15m",
       versao: "PC",
@@ -515,7 +515,7 @@ export const games = [
    {
       nota: 7,
       nome: "Critters for Sale",
-      data: "28/mar/2023",
+      data: "28/03/2023",
       genero: ["Visual Novel"],
       tempo: "1h 16m",
       versao: "PC",
@@ -524,7 +524,7 @@ export const games = [
    {
       nota: 9,
       nome: "Resident Evil: Revelations",
-      data: "24/nov/2024",
+      data: "24/11/2024",
       genero: ["Survival Horror", "Horror"],
       tempo: "7h 35m",
       versao: "PC",
@@ -533,7 +533,7 @@ export const games = [
    {
       nota: 8,
       nome: "Bad Parenting",
-      data: "27/nov/2024",
+      data: "27/11/2024",
       genero: ["Horror"],
       tempo: "0h 30m",
       versao: "PC",
@@ -541,8 +541,17 @@ export const games = [
    },
    {
       nota: 8,
+      nome: "Saya no Uta",
+      genero: ["Visual Novel", "Horror", "Romance"],
+      data: "09/10/2025",
+      tempo: "6h",
+      versao: "PC",
+      cover: "https://images.igdb.com/igdb/image/upload/t_cover_big/co25zj.webp",
+   },
+   {
+      nota: 8,
       nome: "[Bober Bros] The Hole",
-      data: "08/dez/2024",
+      data: "08/12/2024",
       genero: ["Horror"],
       tempo: "1h 06m",
       versao: "PC",
@@ -551,7 +560,7 @@ export const games = [
    {
       nota: 7,
       nome: "Locke(d)",
-      data: "08/mai/2025",
+      data: "08/05/2025",
       genero: ["Visual Novel"],
       tempo: "0h 28m",
       versao: "PC",
@@ -560,7 +569,7 @@ export const games = [
    {
       nota: 8,
       nome: "Go! Go! Nippon! ~My First Trip to Japan~",
-      data: "10/jul/2025",
+      data: "10/07/2025",
       genero: ["Visual Novel"],
       tempo: "4h 50m",
       versao: "PC",
@@ -569,7 +578,7 @@ export const games = [
    {
       nota: 7,
       nome: "Stigmatized Property",
-      data: "09/fev/2023",
+      data: "09/02/2023",
       genero: ["Horror"],
       tempo: "4h 05m",
       versao: "PC",
@@ -578,7 +587,7 @@ export const games = [
    {
       nota: 8,
       nome: "Coffee Talk",
-      data: "18/fev/2023",
+      data: "18/02/2023",
       genero: ["Visual Novel"],
       tempo: "8h 30m",
       versao: "PC",
@@ -587,7 +596,7 @@ export const games = [
    {
       nota: 8,
       nome: "Resident Evil 3 (2020)",
-      data: "11/abr/2023",
+      data: "11/04/2023",
       genero: ["Survival Horror", "Horror"],
       tempo: "6h 42m",
       versao: "PC",
@@ -596,7 +605,7 @@ export const games = [
    {
       nota: 7,
       nome: "The Town of Light",
-      data: "27/mai/2023",
+      data: "27/05/2023",
       genero: ["Horror"],
       tempo: "6h 47m",
       versao: "PC",
@@ -605,7 +614,7 @@ export const games = [
    {
       nota: 8,
       nome: "Resident Evil 6",
-      data: "18/out/2023",
+      data: "18/10/2023",
       genero: ["Survival Horror", "Co-op", "Horror"],
       tempo: "10h 41m",
       versao: "PC",
@@ -614,7 +623,7 @@ export const games = [
    {
       nota: 7,
       nome: "Canine",
-      data: "05/mar/2024",
+      data: "05/03/2024",
       genero: ["Horror"],
       tempo: "0h 18m",
       versao: "PC",
@@ -623,7 +632,7 @@ export const games = [
    {
       nota: 7,
       nome: "Looking Up I See Only A Ceiling",
-      data: "10/mar/2024",
+      data: "10/03/2024",
       genero: ["Visual Novel"],
       tempo: "4h 35m",
       versao: "PC",
@@ -632,7 +641,7 @@ export const games = [
    {
       nota: 7,
       nome: "The Room",
-      data: "23/abr/2024",
+      data: "23/04/2024",
       genero: ["Puzzle"],
       tempo: "2h 42m",
       versao: "PC",
@@ -641,7 +650,7 @@ export const games = [
    {
       nota: 7,
       nome: "心霊物件 | Haunted Property",
-      data: "08/jun/2025",
+      data: "08/06/2025",
       genero: ["Horror"],
       tempo: "1h 49m",
       versao: "PC",
@@ -650,7 +659,7 @@ export const games = [
    {
       nota: 7,
       nome: "The Coma 2: Vicious Sisters",
-      data: "04/mai/2024",
+      data: "04/05/2024",
       genero: ["Horror"],
       tempo: "7h 30m",
       versao: "PC",
@@ -659,7 +668,7 @@ export const games = [
    {
       nota: 7,
       nome: "Firewatch",
-      data: "06/jun/2024",
+      data: "06/06/2024",
       genero: ["Atmosférico"],
       tempo: "8h 11m",
       versao: "PC",
@@ -668,7 +677,7 @@ export const games = [
    {
       nota: 6,
       nome: "Bad End Theater",
-      data: "14/mar/2024",
+      data: "14/03/2024",
       genero: ["Visual Novel"],
       tempo: "1h 00m",
       versao: "PC",
@@ -677,7 +686,7 @@ export const games = [
    {
       nota: 8,
       nome: "Grizzly Man",
-      data: "10/jun/2025",
+      data: "10/06/2025",
       genero: ["Visual Novel", "Horror"],
       tempo: "1h 47m",
       versao: "PC",
@@ -686,7 +695,7 @@ export const games = [
    {
       nota: 8,
       nome: "The NOexistenceN of you AND me",
-      data: "11/jul/2025",
+      data: "11/07/2025",
       genero: ["Visual Novel"],
       tempo: "1h 50m",
       versao: "PC",
@@ -695,7 +704,7 @@ export const games = [
    {
       nota: 6,
       nome: "Late Stops",
-      data: "12/jul/2025",
+      data: "12/07/2025",
       genero: ["Horror"],
       tempo: "0h 30m",
       versao: "PC",

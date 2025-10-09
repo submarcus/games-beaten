@@ -21,6 +21,7 @@ export interface FilterState {
    genero: string;
    nota: string;
    versao: string;
+   ano: string;
    sortBy: string;
    search: string;
 }

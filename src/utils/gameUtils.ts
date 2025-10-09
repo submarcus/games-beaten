@@ -1,25 +1,17 @@
 import type { Game } from "../types";
 
 export const parseDate = (dateString: string): Date => {
-   const monthMap: { [key: string]: number } = {
-      jan: 0,
-      fev: 1,
-      mar: 2,
-      abr: 3,
-      mai: 4,
-      jun: 5,
-      jul: 6,
-      ago: 7,
-      set: 8,
-      out: 9,
-      nov: 10,
-      dez: 11,
-   };
-
+   // Expects format "dd/mm/yyyy"
    const [day, month, year] = dateString.split("/");
-   const monthIndex = monthMap[month.toLowerCase()];
 
-   return new Date(parseInt(year), monthIndex, parseInt(day));
+   // month - 1 because Date months are 0-indexed (January = 0, December = 11)
+   return new Date(parseInt(year), parseInt(month) - 1, parseInt(day));
+};
+
+// Helper function to extract year from date string
+export const getYearFromDate = (dateString: string): number => {
+   const [, , year] = dateString.split("/");
+   return parseInt(year);
 };
 
 export const getRatingColor = (rating: number): string => {
