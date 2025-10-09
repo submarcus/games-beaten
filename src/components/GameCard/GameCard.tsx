@@ -16,9 +16,9 @@ const GameCard = (game: Game) => {
 
             {/* Sobreposição */}
             <div className="absolute inset-0 flex flex-col items-center justify-center bg-black/70 text-white opacity-0 transition-opacity duration-300 group-hover:opacity-100 *:cursor-default px-2">
-               <span className="text-xs font-medium text-center line-clamp-2 max-w-full overflow-hidden break-words text-neutral-300">{game.nome}</span>
-               <span className="text-sm font-medium">{game.data}</span>
-               <span className="text-sm text-neutral-300">{game.tempo}</span>
+               <span className="text-xs font-medium text-neutral-300">{game.data}</span>
+               <span className="text-sm font-medium text-center line-clamp-2 max-w-full overflow-hidden break-words">{game.nome}</span>
+               <span className="text-xs text-neutral-300">{game.tempo}</span>
 
                <span
                   className={`cursor-default absolute right-1 top-1 w-6 h-6 flex items-center justify-center bg-black text-sm font-normal ${getRatingColor(
