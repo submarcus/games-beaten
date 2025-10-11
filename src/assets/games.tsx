@@ -306,7 +306,7 @@ export const games = [
       cover: "https://images.igdb.com/igdb/image/upload/t_cover_big/co1tmu.webp",
    },
    {
-      nota: 9,
+      nota: 8,
       nome: "Katawa Shoujo",
       data: "08/06/2025",
       genero: ["Visual Novel"],
@@ -531,7 +531,7 @@ export const games = [
       cover: "https://images.igdb.com/igdb/image/upload/t_cover_big/co99t4.webp",
    },
    {
-      nota: 8,
+      nota: 9,
       nome: "Saya no Uta",
       genero: ["Visual Novel", "Horror", "Romance"],
       data: "09/10/2025",
@@ -684,22 +684,13 @@ export const games = [
       cover: "https://images.igdb.com/igdb/image/upload/t_cover_big/co9y1s.webp",
    },
    {
-      nota: 8,
+      nota: 7,
       nome: "The NOexistenceN of you AND me",
       data: "11/07/2025",
       genero: ["Visual Novel", "Romance"],
       tempo: "1h 50m",
       versao: "PC",
       cover: "https://images.igdb.com/igdb/image/upload/t_cover_big/co9apq.webp",
-   },
-   {
-      nota: 6,
-      nome: "Late Stops",
-      data: "12/07/2025",
-      genero: ["Horror"],
-      tempo: "0h 30m",
-      versao: "PC",
-      cover: "https://images.igdb.com/igdb/image/upload/t_cover_big/coa3yc.webp",
    },
 ];
 

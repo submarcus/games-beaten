@@ -20,7 +20,7 @@ const Header = ({ games }: HeaderProps) => {
                </div>
                <a href="https://steamcommunity.com/id/maahlune" target="_blank" className="group relative">
                   <img
-                     src="https://i.pinimg.com/736x/f0/5f/80/f05f80bec5c23cfe638f37c93a66f8dd.jpg"
+                     src="https://i.pinimg.com/1200x/54/2e/14/542e14006717f483cb5be0cdb9d9d399.jpg"
                      className="border border-neutral-800 bg-neutral-950 size-20 object-cover transition-all duration-300"
                   />
                   {/* Steam overlay on hover */}

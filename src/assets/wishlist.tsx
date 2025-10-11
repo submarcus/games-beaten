@@ -179,14 +179,7 @@ export const wishlist = [
       genero: ["Horror", "Visual Novel"],
       tempo: "8h",
       versao: "PC",
-      cover: "https://vn-russian.ru/media/vn_poster/c8d91345-e891-4371-b3fc-96053e85dc02.jpg",
-   },
-   {
-      nome: "GINKA",
-      genero: ["Aventura", "Visual Novel"],
-      tempo: "10h",
-      versao: "PC",
-      cover: "https://vn-russian.ru/media/vn_poster/c8d91345-e891-4371-b3fc-96053e85dc02.jpg",
+      cover: "https://images.igdb.com/igdb/image/upload/t_cover_big/co3dhg.jpg",
    },
    {
       nome: "GINKA",
