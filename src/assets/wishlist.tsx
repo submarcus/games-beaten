@@ -77,13 +77,6 @@ export const wishlist = [
       cover: "https://images.igdb.com/igdb/image/upload/t_cover_big/co68za.webp",
    },
    {
-      nome: "s.p.l.i.t",
-      genero: ["Horror", "Puzzle"],
-      tempo: "1h",
-      versao: "PC",
-      cover: "https://images.igdb.com/igdb/image/upload/t_cover_big/coa82q.webp",
-   },
-   {
       nome: "The House in Fata Morgana",
       genero: ["Horror", "Visual Novel"],
       tempo: "29h",

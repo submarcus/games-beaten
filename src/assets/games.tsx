@@ -136,6 +136,15 @@ export const games = [
    },
    {
       nota: 9,
+      nome: "s.p.l.i.t",
+      data: "10/12/2025",
+      genero: ["Horror", "Puzzle"],
+      tempo: "1h",
+      versao: "PC",
+      cover: "https://images.igdb.com/igdb/image/upload/t_cover_big/coa82q.webp",
+   },
+   {
+      nota: 9,
       nome: "Stray",
       data: "21/07/2022",
       genero: ["Cyberpunk", "Aventura"],
