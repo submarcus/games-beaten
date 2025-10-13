@@ -26,7 +26,7 @@ const Wishlist = () => {
          case "tempo":
             return "Por Tempo Estimado";
          default:
-            return "Ordem Alfabética";
+            return "Por Tempo Estimado";
       }
    };
 

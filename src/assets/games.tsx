@@ -321,7 +321,7 @@ export const games = [
       genero: ["Visual Novel"],
       tempo: "12h",
       versao: "PC",
-      cover: "https://images.igdb.com/igdb/image/upload/t_cover_big/co8kvi.webp",
+      cover: "https://images.igdb.com/igdb/image/upload/t_cover_big/co7k1l.jpg",
    },
    {
       nota: 9,

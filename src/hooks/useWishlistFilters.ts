@@ -5,7 +5,7 @@ export const useWishlistFilters = (games: WishlistGame[]) => {
    const [filters, setFilters] = useState<WishlistFilterState>({
       genero: "",
       versao: "",
-      sortBy: "nome",
+      sortBy: "tempo",
       search: "",
    });
 
@@ -65,7 +65,7 @@ export const useWishlistFilters = (games: WishlistGame[]) => {
       setFilters({
          genero: "",
          versao: "",
-         sortBy: "nome",
+         sortBy: "tempo",
          search: "",
       });
    };

@@ -15,7 +15,7 @@ const WishlistCard = (game: WishlistGame) => {
             {/* Sobreposição */}
             <div className="absolute inset-0 flex flex-col items-center justify-center bg-black/70 text-white opacity-0 transition-opacity duration-300 group-hover:opacity-100 *:cursor-default px-2">
                <span className="text-xs text-neutral-300">
-                  {Array.isArray(game.genero) ? game.genero.join(", ") : game.genero}
+                  {Array.isArray(game.genero) ? game.genero.slice(0, 2).join(", ") : game.genero}
                </span>
                <span className="text-sm font-medium text-center line-clamp-2 max-w-full overflow-hidden break-words text-neutral-200">
                   {game.nome}
