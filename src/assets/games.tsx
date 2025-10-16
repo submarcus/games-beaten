@@ -137,7 +137,7 @@ export const games = [
    {
       nota: 9,
       nome: "s.p.l.i.t",
-      data: "10/12/2025",
+      data: "12/10/2025",
       genero: ["Horror", "Puzzle"],
       tempo: "1h",
       versao: "PC",
@@ -448,6 +448,15 @@ export const games = [
       tempo: "1h",
       versao: "PC",
       cover: "https://images.igdb.com/igdb/image/upload/t_cover_big/co8coy.webp",
+   },
+   {
+      nota: 7,
+      nome: "Back to Hearth",
+      data: "16/10/2025",
+      genero: ["Aventura"],
+      tempo: "1h",
+      versao: "PC",
+      cover: "https://images.igdb.com/igdb/image/upload/t_cover_big/co7tqr.webp",
    },
    {
       nota: 8,
